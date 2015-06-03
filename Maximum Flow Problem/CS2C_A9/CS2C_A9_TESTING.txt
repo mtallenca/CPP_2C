@@ -1,0 +1,520 @@
+---Test1---
+//init run
+//matches expected
+
+------------------------
+Res List for s: a(3) b(2)
+Res List for a: s(0) b(1) c(3) d(4)
+Res List for b: s(0) a(0) d(2)
+Res List for c: a(0) t(2)
+Res List for d: a(0) b(0) t(3)
+Res List for t: c(0) d(0)
+
+------------------------
+Flow Adj List for s: a(0) b(0)
+Flow Adj List for a: b(0) c(0) d(0)
+Flow Adj List for b: d(0)
+Flow Adj List for c: t(0)
+Flow Adj List for d: t(0)
+Flow Adj List for t:
+
+Final flow: 5
+------------------------
+Res List for s: a(0) b(0)
+Res List for a: s(3) b(1) c(1) d(3)
+Res List for b: s(2) a(0) d(0)
+Res List for c: a(2) t(0)
+Res List for d: a(1) b(2) t(0)
+Res List for t: c(2) d(3)
+
+------------------------
+Flow Adj List for s: a(3) b(2)
+Flow Adj List for a: b(0) c(2) d(1)
+Flow Adj List for b: d(2)
+Flow Adj List for c: t(2)
+Flow Adj List for d: t(3)
+Flow Adj List for t:
+
+Press any key to continue . . .
+
+***EXPECTED***
+--------------------
+Adj Res List for s: a(3) b(2)
+Adj Res List for a: s(0) b(1) c(3) d(4)
+Adj Res List for b: s(0) a(0) d(2)
+Adj Res List for c: a(0) t(2)
+Adj Res List for d: a(0) b(0) t(3)
+Adj Res List for t: c(0) d(0)
+
+--------------------
+Adj Flow List for s: a(0) b(0)
+Adj Flow List for a: b(0) c(0) d(0)
+Adj Flow List for b: d(0)
+Adj Flow List for c: t(0)
+Adj Flow List for d: t(0)
+Adj Flow List for t:
+
+Final flow: 5
+--------------------
+Adj Res List for s: a(0) b(0)
+Adj Res List for a: s(3) b(1) c(1) d(3)
+Adj Res List for b: s(2) a(0) d(0)
+Adj Res List for c: a(2) t(0)
+Adj Res List for d: a(1) b(2) t(0)
+Adj Res List for t: c(2) d(3)
+
+--------------------
+Adj Flow List for s: a(3) b(2)
+Adj Flow List for a: b(0) c(2) d(1)
+Adj Flow List for b: d(2)
+Adj Flow List for c: t(2)
+Adj Flow List for d: t(3)
+Adj Flow List for t:
+
+
+
+---Test2---
+//graph test case from text section 9.4.1
+//matches expected
+
+------------------------
+Res List for s: a(4) b(2)
+Res List for a: s(0) b(1) c(2) d(4)
+Res List for b: s(0) a(0) d(2)
+Res List for c: a(0) t(3)
+Res List for d: a(0) b(0) t(3)
+Res List for t: c(0) d(0)
+
+------------------------
+Flow Adj List for s: a(0) b(0)
+Flow Adj List for a: b(0) c(0) d(0)
+Flow Adj List for b: d(0)
+Flow Adj List for c: t(0)
+Flow Adj List for d: t(0)
+Flow Adj List for t:
+
+Final flow: 5
+------------------------
+Res List for s: a(1) b(0)
+Res List for a: s(3) b(1) c(0) d(3)
+Res List for b: s(2) a(0) d(0)
+Res List for c: a(2) t(1)
+Res List for d: a(1) b(2) t(0)
+Res List for t: c(2) d(3)
+
+------------------------
+Flow Adj List for s: a(3) b(2)
+Flow Adj List for a: b(0) c(2) d(1)
+Flow Adj List for b: d(2)
+Flow Adj List for c: t(2)
+Flow Adj List for d: t(3)
+Flow Adj List for t:
+
+Press any key to continue . . .
+
+***EXPECTED***
+------------------------
+Adj Residual List for a: s(3) b(1) c(1) d(3)
+Adj Residual List for s: a(0) b(0)
+Adj Residual List for b: a(0) s(2) d(0)
+Adj Residual List for c: a(2) t(0)
+Adj Residual List for d: a(1) b(2) t(0)
+Adj Residual List for t: c(2) d(3)
+
+------------------------
+Adj Flow List for a: b(0) c(2) d(1)
+Adj Flow List for s: a(3) b(2)
+Adj Flow List for b: d(2)
+Adj Flow List for c: t(2)
+Adj Flow List for d: t(3)
+Adj Flow List for t:
+
+
+
+---Test 3---
+//text exercise 9.11
+//matches expected
+
+------------------------
+Res List for s: A(1) D(4) G(6)
+Res List for A: s(0) D(0) B(2) E(2)
+Res List for D: s(0) A(3) G(0) E(3)
+Res List for G: s(0) D(2) E(1) H(6)
+Res List for B: A(0) C(2)
+Res List for E: A(0) D(0) G(0) C(2) F(3) I(3) H(0)
+Res List for C: B(0) E(0) t(4) F(0)
+Res List for t: C(0) F(0) I(0)
+Res List for F: E(0) C(1) t(3) I(0)
+Res List for I: E(0) t(4) F(1) H(0)
+Res List for H: G(0) E(2) I(6)
+
+------------------------
+Flow Adj List for s: A(0) D(0) G(0)
+Flow Adj List for A: B(0) E(0)
+Flow Adj List for D: A(0) E(0)
+Flow Adj List for G: D(0) E(0) H(0)
+Flow Adj List for B: C(0)
+Flow Adj List for E: C(0) F(0) I(0)
+Flow Adj List for C: t(0)
+Flow Adj List for t:
+Flow Adj List for F: C(0) t(0)
+Flow Adj List for I: t(0) F(0)
+Flow Adj List for H: E(0) I(0)
+
+Final flow: 11
+------------------------
+Res List for s: A(0) D(0) G(0)
+Res List for A: s(1) D(3) B(0) E(0)
+Res List for D: s(4) A(0) G(2) E(0)
+Res List for G: s(6) D(0) E(0) H(3)
+Res List for B: A(2) C(0)
+Res List for E: A(2) D(3) G(1) C(0) F(0) I(0) H(2)
+Res List for C: B(2) E(2) t(0) F(0)
+Res List for t: C(4) F(3) I(4)
+Res List for F: E(3) C(1) t(0) I(0)
+Res List for I: E(3) t(0) F(1) H(1)
+Res List for H: G(3) E(0) I(5)
+
+------------------------
+Flow Adj List for s: A(1) D(4) G(6)
+Flow Adj List for A: B(2) E(2)
+Flow Adj List for D: A(3) E(3)
+Flow Adj List for G: D(2) E(1) H(3)
+Flow Adj List for B: C(2)
+Flow Adj List for E: C(2) F(3) I(3)
+Flow Adj List for C: t(4)
+Flow Adj List for t:
+Flow Adj List for F: C(0) t(3)
+Flow Adj List for I: t(4) F(0)
+Flow Adj List for H: E(2) I(1)
+
+Press any key to continue . . .
+
+***EXPECTED***
+
+------------------------
+Adj Residual List for s: D(4) A(1) G(6)
+Adj Residual List for D: s(0) A(3) G(0) E(3)
+Adj Residual List for A: s(0) D(0) B(2) E(2)
+Adj Residual List for G: s(0) D(2) E(1) H(6)
+Adj Residual List for B: A(0) C(2)
+Adj Residual List for E: D(0) A(0) G(0) C(2) F(3) I(3) H(0)
+Adj Residual List for C: B(0) E(0) t(4) F(0)
+Adj Residual List for t: C(0) F(0) I(0)
+Adj Residual List for F: E(0) C(1) t(3) I(0)
+Adj Residual List for I: E(0) t(4) F(1) H(0)
+Adj Residual List for H: G(0) E(2) I(6)
+
+------------------------
+Adj Flow List for s: D(0) A(0) G(0)
+Adj Flow List for D: A(0) E(0)
+Adj Flow List for A: B(0) E(0)
+Adj Flow List for G: D(0) E(0) H(0)
+Adj Flow List for B: C(0)
+Adj Flow List for E: C(0) F(0) I(0)
+Adj Flow List for C: t(0)
+Adj Flow List for t:
+Adj Flow List for F: C(0) t(0)
+Adj Flow List for I: t(0) F(0)
+Adj Flow List for H: E(0) I(0)
+
+Final flow: 11
+------------------------
+Adj Residual List for s: D(0) A(0) G(0)
+Adj Residual List for D: s(4) A(0) G(2) E(0)
+Adj Residual List for A: s(1) D(3) B(0) E(0)
+Adj Residual List for G: s(6) D(0) E(0) H(3)
+Adj Residual List for B: A(2) C(0)
+Adj Residual List for E: D(3) A(2) G(1) C(0) F(0) I(0) H(2)
+Adj Residual List for C: B(2) E(2) t(0) F(0)
+Adj Residual List for t: C(4) F(3) I(4)
+Adj Residual List for F: E(3) C(1) t(0) I(0)
+Adj Residual List for I: E(3) t(0) F(1) H(1)
+Adj Residual List for H: G(3) E(0) I(5)
+
+------------------------
+Adj Flow List for s: D(4) A(1) G(6)
+Adj Flow List for D: A(3) E(3)
+Adj Flow List for A: B(2) E(2)
+Adj Flow List for G: D(2) E(1) H(3)
+Adj Flow List for B: C(2)
+Adj Flow List for E: C(2) F(3) I(3)
+Adj Flow List for C: t(4)
+Adj Flow List for t:
+Adj Flow List for F: C(0) t(3)
+Adj Flow List for I: t(4) F(0)
+Adj Flow List for H: E(2) I(1)
+
+
+
+
+---Test 4---
+//text exercise from Eric Reed
+//matches expected
+
+------------------------
+Res List for s: h(5) a(5) c(5) d(5)
+Res List for h: s(0) i(5)
+Res List for i: h(0) b(5)
+Res List for b: i(0) a(0) t(5)
+Res List for a: s(0) b(5) e(5)
+Res List for c: s(0) d(0) t(5)
+Res List for d: s(0) c(5) g(5)
+Res List for e: a(0) j(5)
+Res List for j: e(0) t(5)
+Res List for t: b(0) c(0) j(0) g(0)
+Res List for g: d(0) t(5)
+
+------------------------
+Flow Adj List for s: h(0) a(0) c(0) d(0)
+Flow Adj List for h: i(0)
+Flow Adj List for i: b(0)
+Flow Adj List for b: t(0)
+Flow Adj List for a: b(0) e(0)
+Flow Adj List for c: t(0)
+Flow Adj List for d: c(0) g(0)
+Flow Adj List for e: j(0)
+Flow Adj List for j: t(0)
+Flow Adj List for t:
+Flow Adj List for g: t(0)
+
+Final flow: 20
+------------------------
+Res List for s: h(0) a(0) c(0) d(0)
+Res List for h: s(5) i(0)
+Res List for i: h(5) b(0)
+Res List for b: i(5) a(0) t(0)
+Res List for a: s(5) b(5) e(0)
+Res List for c: s(5) d(0) t(0)
+Res List for d: s(5) c(5) g(0)
+Res List for e: a(5) j(0)
+Res List for j: e(5) t(0)
+Res List for t: b(5) c(5) j(5) g(5)
+Res List for g: d(5) t(0)
+
+------------------------
+Flow Adj List for s: h(5) a(5) c(5) d(5)
+Flow Adj List for h: i(5)
+Flow Adj List for i: b(5)
+Flow Adj List for b: t(5)
+Flow Adj List for a: b(0) e(5)
+Flow Adj List for c: t(5)
+Flow Adj List for d: c(0) g(5)
+Flow Adj List for e: j(5)
+Flow Adj List for j: t(5)
+Flow Adj List for t:
+Flow Adj List for g: t(5)
+
+Press any key to continue . . .
+
+***EXPECTED***
+
+---------- Residual Adjacency Table --------------
+Adj Residual List for s: h(5) a(5) c(5) d(5)
+Adj Residual List for h: s(0) i(5)
+Adj Residual List for i: h(0) b(5)
+Adj Residual List for b: i(0) a(0) t(5)
+Adj Residual List for a: s(0) b(5) e(5)
+Adj Residual List for c: s(0) d(0) t(5)
+Adj Residual List for d: s(0) c(5) g(5)
+Adj Residual List for e: a(0) j(5)
+Adj Residual List for j: e(0) t(5)
+Adj Residual List for t: b(0) c(0) j(0) g(0)
+Adj Residual List for g: d(0) t(5)
+
+---------- Flow Adjacency Table --------------
+Adj Flow List for s: h(0) a(0) c(0) d(0)
+Adj Flow List for h: i(0)
+Adj Flow List for i: b(0)
+Adj Flow List for b: t(0)
+Adj Flow List for a: b(0) e(0)
+Adj Flow List for c: t(0)
+Adj Flow List for d: c(0) g(0)
+Adj Flow List for e: j(0)
+Adj Flow List for j: t(0)
+Adj Flow List for t:
+Adj Flow List for g: t(0)
+
+Final flow: 20
+---------- Residual Adjacency Table --------------
+Adj Residual List for s: h(0) a(0) c(0) d(0)
+Adj Residual List for h: s(5) i(0)
+Adj Residual List for i: h(5) b(0)
+Adj Residual List for b: i(5) a(0) t(0)
+Adj Residual List for a: s(5) b(5) e(0)
+Adj Residual List for c: s(5) d(0) t(0)
+Adj Residual List for d: s(5) c(5) g(0)
+Adj Residual List for e: a(5) j(0)
+Adj Residual List for j: e(5) t(0)
+Adj Residual List for t: b(5) c(5) j(5) g(5)
+Adj Residual List for g: d(5) t(0)
+
+---------- Flow Adjacency Table --------------
+Adj Flow List for s: h(5) a(5) c(5) d(5)
+Adj Flow List for h: i(5)
+Adj Flow List for i: b(5)
+Adj Flow List for b: t(5)
+Adj Flow List for a: b(0) e(5)
+Adj Flow List for c: t(5)
+Adj Flow List for d: c(0) g(5)
+Adj Flow List for e: j(5)
+Adj Flow List for j: t(5)
+Adj Flow List for t:
+Adj Flow List for g: t(5)
+
+
+---Test 5---
+//try finding flow path to end that
+//doesn't exist
+
+------------------------
+Res List for s: a(3) b(2)
+Res List for a: s(0) b(1) c(3) d(4)
+Res List for b: s(0) a(0) d(2)
+Res List for c: a(0) t(2)
+Res List for d: a(0) b(0) t(3)
+Res List for t: c(0) d(0)
+
+------------------------
+Flow Adj List for s: a(0) b(0)
+Flow Adj List for a: b(0) c(0) d(0)
+Flow Adj List for b: d(0)
+Flow Adj List for c: t(0)
+Flow Adj List for d: t(0)
+Flow Adj List for t:
+
+Final flow: 0
+------------------------
+Res List for s: a(3) b(2)
+Res List for a: s(0) b(1) c(3) d(4)
+Res List for b: s(0) a(0) d(2)
+Res List for c: a(0) t(2)
+Res List for d: a(0) b(0) t(3)
+Res List for t: c(0) d(0)
+
+------------------------
+Flow Adj List for s: a(0) b(0)
+Flow Adj List for a: b(0) c(0) d(0)
+Flow Adj List for b: d(0)
+Flow Adj List for c: t(0)
+Flow Adj List for d: t(0)
+Flow Adj List for t:
+
+Press any key to continue . . .
+
+
+---Test 6---
+//try finding flow path from start that
+//doesn't exist
+
+------------------------
+Res List for s: a(3) b(2)
+Res List for a: s(0) b(1) c(3) d(4)
+Res List for b: s(0) a(0) d(2)
+Res List for c: a(0) t(2)
+Res List for d: a(0) b(0) t(3)
+Res List for t: c(0) d(0)
+
+------------------------
+Flow Adj List for s: a(0) b(0)
+Flow Adj List for a: b(0) c(0) d(0)
+Flow Adj List for b: d(0)
+Flow Adj List for c: t(0)
+Flow Adj List for d: t(0)
+Flow Adj List for t:
+
+Final flow: 0
+------------------------
+Res List for s: a(3) b(2)
+Res List for a: s(0) b(1) c(3) d(4)
+Res List for b: s(0) a(0) d(2)
+Res List for c: a(0) t(2)
+Res List for d: a(0) b(0) t(3)
+Res List for t: c(0) d(0)
+
+------------------------
+Flow Adj List for s: a(0) b(0)
+Flow Adj List for a: b(0) c(0) d(0)
+Flow Adj List for b: d(0)
+Flow Adj List for c: t(0)
+Flow Adj List for d: t(0)
+Flow Adj List for t:
+
+Press any key to continue . . .
+
+---Test 7---
+//try finding flow path from start and
+//end that don't exist
+
+------------------------
+Res List for s: a(3) b(2)
+Res List for a: s(0) b(1) c(3) d(4)
+Res List for b: s(0) a(0) d(2)
+Res List for c: a(0) t(2)
+Res List for d: a(0) b(0) t(3)
+Res List for t: c(0) d(0)
+
+------------------------
+Flow Adj List for s: a(0) b(0)
+Flow Adj List for a: b(0) c(0) d(0)
+Flow Adj List for b: d(0)
+Flow Adj List for c: t(0)
+Flow Adj List for d: t(0)
+Flow Adj List for t:
+
+Final flow: 0
+------------------------
+Res List for s: a(3) b(2)
+Res List for a: s(0) b(1) c(3) d(4)
+Res List for b: s(0) a(0) d(2)
+Res List for c: a(0) t(2)
+Res List for d: a(0) b(0) t(3)
+Res List for t: c(0) d(0)
+
+------------------------
+Flow Adj List for s: a(0) b(0)
+Flow Adj List for a: b(0) c(0) d(0)
+Flow Adj List for b: d(0)
+Flow Adj List for c: t(0)
+Flow Adj List for d: t(0)
+Flow Adj List for t:
+
+Press any key to continue . . .
+
+
+---Test 8---
+//try finding flow for start and end points
+//that exist, but can not reach eachother
+
+------------------------
+Res List for s: a(3) b(2)
+Res List for a: s(0) b(1) c(3) d(4)
+Res List for b: s(0) a(0) d(2)
+Res List for c: a(0)
+Res List for d: a(0) b(0)
+
+------------------------
+Flow Adj List for s: a(0) b(0)
+Flow Adj List for a: b(0) c(0) d(0)
+Flow Adj List for b: d(0)
+Flow Adj List for c:
+Flow Adj List for d:
+
+Final flow: 0
+------------------------
+Res List for s: a(3) b(2)
+Res List for a: s(0) b(1) c(3) d(4)
+Res List for b: s(0) a(0) d(2)
+Res List for c: a(0)
+Res List for d: a(0) b(0)
+
+------------------------
+Flow Adj List for s: a(0) b(0)
+Flow Adj List for a: b(0) c(0) d(0)
+Flow Adj List for b: d(0)
+Flow Adj List for c:
+Flow Adj List for d:
+
+Press any key to continue . . .
+
+

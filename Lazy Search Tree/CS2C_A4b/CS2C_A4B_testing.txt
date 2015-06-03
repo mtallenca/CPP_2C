@@ -1,0 +1,587 @@
+---Run1---
+
+Num Books: 4863, Tree Size: 4863
+
+
+Attempting 20 finds:
+Found: 23574: La Monte, Rober, Socialism: Positive , (no data found)
+Found: 22740: Unknown, The Apple Dumpling a, (no data found)
+Found: 22693: Lang, Jeanie, A Book of Myths, Mythology
+Found: 28486: Cole, Everett B, The Weakling, Science fiction
+Found: 28488: Moli+퓊e, 1622-, Tartuffeor The Hypoc, Comedies
+Found: 28489: Locke, William , The Belov+촥 Vagabon, PR
+Found: 28490: Girl Scouts of , Scouting For Girls, , Girl Scouts -- Handbooks,
+Found: 23448: Brown, Ruth Alb, Heart of Gold, People with disabilities
+Found: 22599: Karpinski, Loui, The Hindu-Arabic Num, Numerals
+Found: 23337: Ing, Dean Charl, Tight Squeeze, Science fiction
+Found: 22360: Bradley, Mary H, The Fortieth Door, PS
+Found: 23293: Lawrence, Rober, Primitive Psycho-The, (no data found)
+Found: 28066: Various, The Christian Founda, Religion and science -- P
+Found: 28067: Smith, J. Allen, The Spirit of Americ, Constitutional history --
+Found: 28069: Bangs, John Ken, Alice in Blunderland, Fantasy
+Found: 28070: Harriman, Alice, A Man of Two Countri, PS
+Found: 23205: Various, Notes and Queries, N, Questions and answers --
+Found: 22171: Ernst, Paul, 18, The Radiant Shell, Science fiction
+Found: 23075: Baum, L. Frank , Ozma of Oz, Oz (Imaginary place) -- F
+Found: 29230: Barker, James N, The Indian PrincessL, American drama
+
+
+Attempting 20 removals:
+
+new size: 4843
+Press any key to continue . . .
+
+---Run2---
+//test collectGarbage
+
+Num Books: 4863, Tree Size: 4863
+
+
+Attempting 20 finds:
+Found: 23574: La Monte, Rober, Socialism: Positive , (no data found)
+Found: 22740: Unknown, The Apple Dumpling a, (no data found)
+Found: 22693: Lang, Jeanie, A Book of Myths, Mythology
+Found: 28486: Cole, Everett B, The Weakling, Science fiction
+Found: 28488: Moli+퓊e, 1622-, Tartuffeor The Hypoc, Comedies
+Found: 28489: Locke, William , The Belov+촥 Vagabon, PR
+Found: 28490: Girl Scouts of , Scouting For Girls, , Girl Scouts -- Handbooks,
+Found: 23448: Brown, Ruth Alb, Heart of Gold, People with disabilities
+Found: 22599: Karpinski, Loui, The Hindu-Arabic Num, Numerals
+Found: 23337: Ing, Dean Charl, Tight Squeeze, Science fiction
+Found: 22360: Bradley, Mary H, The Fortieth Door, PS
+Found: 23293: Lawrence, Rober, Primitive Psycho-The, (no data found)
+Found: 28066: Various, The Christian Founda, Religion and science -- P
+Found: 28067: Smith, J. Allen, The Spirit of Americ, Constitutional history --
+Found: 28069: Bangs, John Ken, Alice in Blunderland, Fantasy
+Found: 28070: Harriman, Alice, A Man of Two Countri, PS
+Found: 23205: Various, Notes and Queries, N, Questions and answers --
+Found: 22171: Ernst, Paul, 18, The Radiant Shell, Science fiction
+Found: 23075: Baum, L. Frank , Ozma of Oz, Oz (Imaginary place) -- F
+Found: 29230: Barker, James N, The Indian PrincessL, American drama
+
+
+Attempting 20 removals:
+
+
+Before collectGarbage() mSize: 4843 mSizeHard: 4863
+
+
+After collectGarbage() mSize: 4843 mSizeHard: 4843
+Press any key to continue . . .
+
+---Run3---
+//more test collectGarbage()
+
+
+
+Before collectGarbage() mSize: 0 mSizeHard: 0
+
+
+After collectGarbage() mSize: 0 mSizeHard: 0
+Num Books: 4863, Tree Size: 4863
+
+
+Attempting 20 finds:
+Found: 23574: La Monte, Rober, Socialism: Positive , (no data found)
+Found: 22740: Unknown, The Apple Dumpling a, (no data found)
+Found: 22693: Lang, Jeanie, A Book of Myths, Mythology
+Found: 28486: Cole, Everett B, The Weakling, Science fiction
+Found: 28488: Moli+퓊e, 1622-, Tartuffeor The Hypoc, Comedies
+Found: 28489: Locke, William , The Belov+촥 Vagabon, PR
+Found: 28490: Girl Scouts of , Scouting For Girls, , Girl Scouts -- Handbooks,
+Found: 23448: Brown, Ruth Alb, Heart of Gold, People with disabilities
+Found: 22599: Karpinski, Loui, The Hindu-Arabic Num, Numerals
+Found: 23337: Ing, Dean Charl, Tight Squeeze, Science fiction
+Found: 22360: Bradley, Mary H, The Fortieth Door, PS
+Found: 23293: Lawrence, Rober, Primitive Psycho-The, (no data found)
+Found: 28066: Various, The Christian Founda, Religion and science -- P
+Found: 28067: Smith, J. Allen, The Spirit of Americ, Constitutional history --
+Found: 28069: Bangs, John Ken, Alice in Blunderland, Fantasy
+Found: 28070: Harriman, Alice, A Man of Two Countri, PS
+Found: 23205: Various, Notes and Queries, N, Questions and answers --
+Found: 22171: Ernst, Paul, 18, The Radiant Shell, Science fiction
+Found: 23075: Baum, L. Frank , Ozma of Oz, Oz (Imaginary place) -- F
+Found: 29230: Barker, James N, The Indian PrincessL, American drama
+
+
+Before collectGarbage() mSize: 4863 mSizeHard: 4863
+
+
+After collectGarbage() mSize: 4863 mSizeHard: 4863
+
+
+Attempting 20 removals:
+
+
+Before collectGarbage() mSize: 4843 mSizeHard: 4863
+
+
+After collectGarbage() mSize: 4843 mSizeHard: 4843
+Press any key to continue . . .
+
+---Run4---
+//end of run: inserting all ebooks again (should 'overwrite'
+soft deleted and not insert any already in tree)
+
+Great
+NOT INSERTED: 25046: Willison, Marjo, The Canadian Girl at, Women -- Employment
+-- Ca
+NOT INSERTED: 25045: Mathews, Cornel, ChanticleerA Thanksg, Thanksgiving Day --
+Juven
+NOT INSERTED: 25044: Hague, W. Grant, The Eugenic Marriage, Hygiene
+NOT INSERTED: 25043: Anthony, Wilder, Hidden Gold, Western stories
+NOT INSERTED: 25042: Clifford, C. R., Color Value, Interior decoration
+NOT INSERTED: 25041: Burpee, Lawrenc, Humour of the North, Canadian wit and humo
+r
+NOT INSERTED: 25040: Belcourt, N. A., BilingualismAddress , Speeches, addresses,
+ etc.
+NOT INSERTED: 25038: Wallace, Edgar,, Tam o' the Scoots, World War, 1914-1918 --
+ F
+NOT INSERTED: 25037: Hopkins, R. Thu, War and the Weird, World War, 1914-1918
+NOT INSERTED: 25035: Silverberg, Rob, The Happy Unfortunat, Short stories
+NOT INSERTED: 25034: Wilson, J. O., Report of the Chief , General Assembly Libra
+ry
+NOT INSERTED: 25033: New Zealand. Ge, Report of the Chief , General Assembly Lib
+rary
+NOT INSERTED: 25031: Carryl, Charles, Davy and The GoblinW, Fantasy
+NOT INSERTED: 25029: Stebbing, W. (W, Sir Walter RaleghA B, Biography
+NOT INSERTED: 25028: Garrett, Randal, Heist Job on Thizar, Short stories
+NOT INSERTED: 25027: Anonymous, Peter Piper's Practi, Alphabet books
+NOT INSERTED: 25026: Marshall, Emma,, Bristol BellsA Story, Biographical fiction
+
+NOT INSERTED: 25025: Bassett, Sara W, The Story of Silk, Silk -- Juvenile litera
+tu
+NOT INSERTED: 25024: Leiber, Fritz, , The Night of the Lon, Science fiction, Ame
+rican
+NOT INSERTED: 25022: Collins, Daniel, Narrative of the shi, Pirates
+NOT INSERTED: 25021: Anonymous, Sarukani kassen. Eng, Folklore -- Japan
+NOT INSERTED: 25020: Paterson, Josep, Humanistic Nursing, Nursing
+NOT INSERTED: 25018: Vincent, Marvin, Amusement: A Force i, Christian life
+NOT INSERTED: 25017: Tracy, Louis, 1, A Son of the Immorta, Love stories
+NOT INSERTED: 25015: (no data found), Library of the World, Literature -- Collec
+tions
+NOT INSERTED: 25014: Flaubert, Gusta, Bouvard and P+촣uche, Paris (France) -- Fi
+ction
+NOT INSERTED: 25013: Headley, John P, How to Make a Shoe, Shoemakers
+NOT INSERTED: 25012: Nietzsche, Frie, The Case Of Wagner, , Essays
+NOT INSERTED: 25010: Various, Punch, or the London, English wit and humor --
+NOT INSERTED: 25008: Ogilvie, John, , An Essay on the Lyri, Classical poetry --
+Histo
+NOT INSERTED: 25007: Murrey, Thomas , Fifty Soups, Recipes
+NOT INSERTED: 25006: M++nsterberg, H, Psychology and Socia, Social psychology
+NOT INSERTED: 25005: Crownfield, Ger, The Shadow Witch, Fairy tales
+NOT INSERTED: 25004: Dawson, Sarah M, A Confederate Girl's, Louisiana -- History
+ -- C
+NOT INSERTED: 25003: Brazil, Angela,, The Nicest Girl in t, Schools -- Juvenile
+ficti
+NOT INSERTED: 25002: Fitzhugh, Percy, Roy Blakeley's Bee-l, Boy Scouts of Americ
+a --
+NOT INSERTED: 25001: Trollope, Antho, An Old Man's Love, England -- Fiction
+NOT INSERTED: 25000: Fletcher, Willi, English Book Collect, Book collectors -- G
+reat
+NOT INSERTED: 24999: Becke, Louis, 1, The Strange Adventur, Sea stories
+NOT INSERTED: 24998: Becke, Louis, 1, Concerning &quot;Bul, Sea stories
+NOT INSERTED: 24997: Becke, Louis, 1, The Beginning Of The, Essays
+NOT INSERTED: 24996: Becke, Louis, 1, The Tapu Of Banderah, Adventure stories
+NOT INSERTED: 24995: Becke, Louis, 1, The Americans In The, Essays
+NOT INSERTED: 24994: Australia. Dept, Wheat Growing in Aus, Wheat -- Australia
+NOT INSERTED: 24993: Abbott, Jacob, , Rollo's Experiments, Natural history -- Ju
+veni
+NOT INSERTED: 24992: Various, Punch, or the London, English wit and humor --
+NOT INSERTED: 24991: Wise, Daniel, 1, Aunt Amyor, How Minn, Children -- Conduct
+of li
+NOT INSERTED: 24990: Sutro, Theodore, Thirteen Chapters of, United States -- His
+tory
+NOT INSERTED: 24989: Guyon, Jeanne M, A Short Method Of Pr, Prayer -- Christiani
+ty
+NOT INSERTED: 24987: Unknown, Girl ScoutsTheir Wor, Girl Scouts
+NOT INSERTED: 24986: Hocking, Joseph, Tommy, Methodists -- Fiction
+NOT INSERTED: 24985: Hope, Anthony, , Comedies of Courtshi, Short stories
+NOT INSERTED: 24984: Acland, John Ed, Little Gidding and i, Bible. N.T. Gospels
+-- Ha
+NOT INSERTED: 24981: Pierce, Ruth, Trapped in 'Black Ru, World War, 1914-1918 --
+ P
+NOT INSERTED: 24979: Ayer, Joseph Cu, A Source Book for An, Church history -- Pr
+imiti
+NOT INSERTED: 24978: Bemister, Marga, Thirty Indian Legend, Indians of North Ame
+rica
+NOT INSERTED: 24977: Castle, Arnold, The Perfectionists, Science fiction
+NOT INSERTED: 24975: Fontenay, Charl, The Gift Bearer, Short stories
+NOT INSERTED: 24974: Ontario. Minist, Ontario Teachers' Ma, Education
+NOT INSERTED: 24973: Derreaux, Gasto, The Sun King, Historical fiction
+NOT INSERTED: 24972: Doubleday, Abne, Reminiscences of For, United States -- His
+tory
+NOT INSERTED: 24971: Peck, Ellen Mar, Travels in the Far E, Egypt -- Description
+ and
+NOT INSERTED: 24970: Underwood, Agne, The Story of a Robin, Children -- Conduct
+of li
+NOT INSERTED: 24968: Keckley, Elizab, Behind the Scenesor,, Lincoln, Abraham, 18
+09-18
+NOT INSERTED: 24966: Sevcik, Al, Survival Tactics, Short stories
+NOT INSERTED: 24965: Marks, Winston , The Deadly Daughters, Short stories
+NOT INSERTED: 24964: Higgin, L., Handbook of Embroide, Embroidery
+NOT INSERTED: 24963: Robertson, Marg, Allison Bain, or,By , Canadian fiction
+NOT INSERTED: 24959: Parker, Corneli, Working With the Wor, United States -- Soc
+ial c
+NOT INSERTED: 24958: Wallace, F. L. , Second Landing, Short stories
+NOT INSERTED: 24956: Anonymous, Live to be Usefulor,, Christian life -- Juvenil
+NOT INSERTED: 24955: Teichner, Alber, Man Made, Short stories
+NOT INSERTED: 24954: Becke, Louis, 1, Becke, Louis, 1855-1, Short stories
+NOT INSERTED: 24953: Becke, Louis, 1, The Flemmings And &q, Oceania -- Fiction
+NOT INSERTED: 24952: Becke, Louis, 1, Becke, Louis, 1855-1, Short stories
+NOT INSERTED: 24951: Doyle, Arthur C, The War in South Afr, South African War, 1
+899-1
+NOT INSERTED: 24950: Bradford, Willi, Bradford's History o, Massachusetts -- His
+tory
+NOT INSERTED: 24949: Aycock, Roger D, Control Group, Short stories
+NOT INSERTED: 24948: Eivind, R., Finnish Legends for , Folklore -- Finland
+NOT INSERTED: 24947: Little, A. G. (, Medi+챭al WalesChief, Wales -- History
+NOT INSERTED: 24945: McNeile, H. C. , Mufti, Detective and mystery sto
+NOT INSERTED: 24944: Falconer, Willi, Mushrooms: how to gr, Mushrooms -- Culture
+
+NOT INSERTED: 24943: Various, The Nursery, Decembe, Children's literature, Am
+NOT INSERTED: 24942: Various, The Nursery, Novembe, Children's literature, Am
+NOT INSERTED: 24941: Various, The Nursery, October, Children's literature, Am
+NOT INSERTED: 24940: Various, The Nursery, Septemb, Children's literature, Am
+NOT INSERTED: 24939: Various, The Nursery, August , Children's literature, Am
+NOT INSERTED: 24938: Various, The Nursery, July 18, Children's literature, Am
+NOT INSERTED: 24937: Woodworth, Fran, Mike MarbleHis Crotc, Conduct of life -- J
+uveni
+NOT INSERTED: 24935: (no data found), Famous Tales of Fact, Mythology -- Juvenil
+e lit
+NOT INSERTED: 24933: Wallace, Edgar,, The Man Who Knew, Detective and mystery st
+o
+NOT INSERTED: 24932: Grant, W. L. (W, The Tribune of Nova , Howe, Joseph, 1804-1
+873
+NOT INSERTED: 24931: Anderson, Thoma, Elements of Agricult, Agricultural chemist
+ry
+NOT INSERTED: 24930: Greeley, Horace, Glances at EuropeIn , Europe -- Descriptio
+n and
+NOT INSERTED: 24929: Wallace, Edgar,, The Green Rust, Mystery and detective sto
+NOT INSERTED: 24927: Sevcik, Al, A Matter of Magnitud, Science fiction
+NOT INSERTED: 24926: Fenn, George Ma, In the Mahdi's Grasp, Boys -- Conduct of l
+ife -
+NOT INSERTED: 24922: Farnol, Jeffery, The Honourable Mr. T, Great Britain -- His
+tory
+NOT INSERTED: 24921: Neville, Emily, ItG핫s like this, ca, Friendship -- Juvenil
+e fi
+NOT INSERTED: 24920: Wallace, Edgar,, The Book of All-Powe, Fiction
+NOT INSERTED: 24918: Fenn, George Ma, Hollowdell GrangeHol, Vacations -- Juvenil
+e fic
+NOT INSERTED: 24917: P+촵ez Gald+쫟,, Heath's Modern Langu, Comedies
+NOT INSERTED: 24916: Hutcheson, John, Crown and AnchorUnde, Seafaring life -- Ju
+venil
+NOT INSERTED: 24914: Brooks, Charles, Wappin' WharfA Frigh, Comedies
+NOT INSERTED: 24913: Tenneshaw, S. M, The Monster, Science fiction, American
+NOT INSERTED: 24912: Poulsson, Emili, Finger plays for nur, Games
+NOT INSERTED: 24911: Mott, Walter Fe, Young Glory and the , War stories
+NOT INSERTED: 24910: Beeckman, Ross, The Last Woman, Love stories
+NOT INSERTED: 24909: Fenn, George Ma, The Golden Magnet, Treasure troves -- Juve
+ni
+NOT INSERTED: 24907: Hough, Emerson,, The Lady and the Pir, Pirates -- Fiction
+NOT INSERTED: 24906: Kinnear, John R, History of the Eight, United States -- His
+tory
+NOT INSERTED: 24904: Various, Golden Days for Boys, Children's literature --
+NOT INSERTED: 24903: Speed, Nell, 18, Molly Brown's Senior, College students --
+Juven
+NOT INSERTED: 24901: Dryden, John F., The American Type of, Panama Canal (Panama
+)
+NOT INSERTED: 24900: Various, The Annual Catalogue, English literature -- Bib
+NOT INSERTED: 24896: Becke, Louis, 1, The Ebbing Of The Ti, Oceania -- Fiction
+NOT INSERTED: 24894: Unknown, The Emperor's Rout, Children's poetry
+NOT INSERTED: 24893: Nicoll, Maurice, In Mesopotamia, Medicine -- History -- 20
+NOT INSERTED: 24892: Various, Chambers's Edinburgh, Great Britain -- Social l
+NOT INSERTED: 24891: Osborn, Sherard, Stray Leaves from an, Arctic regions
+NOT INSERTED: 24890: Tyndale, Willia, , Bible. O.T. Jonah -- Comm
+NOT INSERTED: 24886: Withering, Will, An Account of the Fo, Purple foxglove
+NOT INSERTED: 24885: Various, The Atlantic Monthly, AP
+NOT INSERTED: 24884: Redway, Jacques, Commercial Geography, Commercial geography
+
+NOT INSERTED: 24883: Rogers, Henry R, New and Original The, Astronomy
+NOT INSERTED: 24882: (no data found), Privateering and Pir, Pirates
+NOT INSERTED: 24881: Bailey, Arthur , The Tale of Grumpy W, Animals -- Juvenile
+ficti
+NOT INSERTED: 24880: Robertson, Morg, The Wreck of the Tit, Ships -- Fiction
+NOT INSERTED: 24879: Gaskell, Elizab, Curious, if TrueStra, Short stories
+NOT INSERTED: 24870: Hamilton, Edmon, The Stars, My Brothe, Science fiction
+NOT INSERTED: 24869: Valmiki, Ramayana. English, Folklore -- India
+NOT INSERTED: 24868: National Indust, The Cost of Living A, Cost and standard of
+ livi
+NOT INSERTED: 24865: Sabia, Richard, The Premiere, Science fiction
+NOT INSERTED: 24864: Lang, Allen Kim, The Great Potlatch R, Science fiction
+NOT INSERTED: 24862: Laurie, G. B. (, Letters of Lt.-Col. , World War, 1914-1918
+ -- P
+NOT INSERTED: 24860: Richardson, Sam, Samuel Richardson's , Richardson, Samuel,
+1689-
+NOT INSERTED: 24859: Collingwood, Ha, Turned Adrift, Survival after airplane a
+NOT INSERTED: 24858: Bassett, Sara W, The Story of Wool, Sheep -- Juvenile liter
+at
+NOT INSERTED: 24857: Sylvester, Char, Journeys Through Boo, Children's literatur
+e
+NOT INSERTED: 24856: Homer, 750? BC-, Odysseus, the Hero o, Classical literature
+
+NOT INSERTED: 24849: Unknown, A Little Present for, Children's poetry
+NOT INSERTED: 24842: Swinton, Ernest, The Defence of Duffe, Military art and sci
+ence
+NOT INSERTED: 24841: Richmond, Mary , Friendly Visiting am, Friendly visiting
+NOT INSERTED: 24839: Leblanc, Mauric, The Blonde LadyBeing, Detective and myster
+y sto
+NOT INSERTED: 24838: Becke, Louis, 1, Tessa1901, Pacific Area -- Social li
+NOT INSERTED: 24837: Becke, Louis, 1, The Trader's Wife190, Pacific Area -- Soci
+al li
+NOT INSERTED: 24836: Becke, Louis, 1, Rodman The Boatsteer, Short stories
+NOT INSERTED: 24835: Becke, Louis, 1, R+죆an The Devil And, Short stories
+NOT INSERTED: 24831: Abbott, Jacob, , Forests of MaineMarc, Forests and forestry
+ -- M
+NOT INSERTED: 24829: Hamilton, Frede, The Uses of ItalicA , Printing -- Style ma
+nuals
+NOT INSERTED: 24828: Richards, Laura, Margaret Montfort, Family -- Fiction
+NOT INSERTED: 24827: Richards, Laura, Rita, Adventure and adventurers
+NOT INSERTED: 24826: Richards, Laura, Hildegarde's Holiday, Conduct of life -- J
+uveni
+NOT INSERTED: 24825: Anonymous, The Ghost of Chatham, Poetry
+NOT INSERTED: 24822: Jewett, Sarah O, The Queen's Twin and, Short stories
+NOT INSERTED: 24821: Fenn, George Ma, Diamond DykeThe Lone, South Africa -- Fict
+ion
+NOT INSERTED: 24818: Freeman, Edward, Sketches of Travel i, Normandy (France) --
+ Desc
+NOT INSERTED: 24816: Leighton, Carol, Life at Puget Sound:, California -- Descri
+ption
+NOT INSERTED: 24815: Davis, Edward Z, Translations of Germ, German poetry -- Tra
+nslat
+NOT INSERTED: 24814: Reid, Mayne, 18, The Forest ExilesThe, Adventure stories
+NOT INSERTED: 24813: Fenn, George Ma, The Queen's ScarletT, Cousins -- Fiction
+NOT INSERTED: 24811: Hall, Jennie, 1, Viking Tales, Short stories
+NOT INSERTED: 24808: Wood, William C, All AfloatA Chronicl, Canada -- History
+NOT INSERTED: 24806: Becke, Louis, 1, John Frewen, South S, Whaling -- Fiction
+NOT INSERTED: 24805: Becke, Louis, 1, From: Chinkie's Flat, Pacific Area -- Soci
+al li
+NOT INSERTED: 24804: Gould, Nat, 185, The Rider in KhakiA , England -- Fiction
+NOT INSERTED: 24803: Various, Notes and Queries, 1, Questions and answers --
+NOT INSERTED: 24800: Romanes, George, Darwin, and After Da, Evolution (Biology)
+NOT INSERTED: 24799: Cobb, Irvin S. , The Escape of Mr. Tr, Short stories
+NOT INSERTED: 24798: (no data found), America FirstPatriot, United States
+NOT INSERTED: 24795: Unknown, An Entertaining Hist, Fairy tales
+NOT INSERTED: 24794: Bell, Florence , The ArbiterA Novel, Great Britain -- Histo
+ry
+NOT INSERTED: 24793: Day, Holman, 18, Blow The Man DownA R, Ship captains -- Fic
+tion
+NOT INSERTED: 24790: (no data found), Early English Meals , Etiquette
+NOT INSERTED: 24789: Orczy, Emmuska , Orczy, Emmuska Orczy, Historical fiction
+NOT INSERTED: 24788: Mooney, James, , The Sacred Formulas , Cherokee language --
+ Text
+NOT INSERTED: 24787: Black, C. B., -, The South of FranceG, France -- Descriptio
+n and
+NOT INSERTED: 24786: (no data found), Games and Play for S, Games
+NOT INSERTED: 24785: Phillips, Steph, Nero, Nero, Emperor of Rome, 37
+NOT INSERTED: 24784: Turnbull, Lawre, The Royal Pawn of Ve, Historical fiction
+NOT INSERTED: 24783: Calthrop, Dion , The Pirate's Pocket , Wit and humor
+NOT INSERTED: 24781: Baerlein, Henry, The Birth of Yugosla, Yugoslavia
+NOT INSERTED: 24780: Victoria, Queen, The Letters of Queen, Great Britain -- His
+tory
+NOT INSERTED: 24779: Cole, Everett B, Millennium, Science fiction, American
+NOT INSERTED: 24778: Unknown, The National Nursery, Fairy tales
+NOT INSERTED: 24777: Verne, Jules, 1, Celebrated Travels a, Voyages and travels
+NOT INSERTED: 24776: Various, The Brochure Series , Architecture -- Periodica
+NOT INSERTED: 24775: Optic, Oliver, , Up the Riveror, Yach, Yachts -- Juvenile f
+ictio
+NOT INSERTED: 24772: Burnett, France, Sara Creweor, What H, Orphans -- Fiction
+NOT INSERTED: 24770: Sinclair, Upton, A Prisoner of MorroI, Spanish-American War
+, 189
+NOT INSERTED: 24767: Wallace, Edgar,, Jack O' Judgment, Detective and mystery st
+o
+NOT INSERTED: 24765: Lippitt, Franci, A Treatise on the Ta, United States -- His
+tory
+NOT INSERTED: 24764: Griffith, Georg, The World Peril of 1, Science fiction, Eng
+lish
+NOT INSERTED: 24762: Tappan, Eva Mar, Diggers in the Earth, Readers
+NOT INSERTED: 24761: Sheridan, Richa, The RivalsA Comedy, English drama (Comedy)
+
+NOT INSERTED: 24760: Various, Aunt Kitty's Stories, Children's poetry
+NOT INSERTED: 24759: Burbidge, Edwar, The Kingdom of Heave, Heaven -- Biblical t
+eachi
+NOT INSERTED: 24758: Altsheler, Jose, The Eyes of the Wood, Frontier and pioneer
+ life
+NOT INSERTED: 24756: Lang, Jeanie, The Story of General, Gordon, Charles George,
+ 1
+NOT INSERTED: 24755: Kingston, Willi, Captain CookHis Life, Biography
+NOT INSERTED: 24754: Cervantes Saave, Wit and Wisdom of Do, Cervantes Saavedra,
+Migue
+NOT INSERTED: 24753: Arthur, T. S. (, Who Are Happiest? an, Christian life -- Ju
+venil
+NOT INSERTED: 24752: Achenwall, Gott, Anmerkungen ++ber No, United States -- Des
+cript
+NOT INSERTED: 24751: Walton, Amy, 18, The Kitchen Cat and , Short stories
+NOT INSERTED: 24750: Lane, Mary E. B, Mizora: A ProphecyA , Science fiction
+NOT INSERTED: 24749: Reynolds, Mack,, Adaptation, Science fiction, American
+NOT INSERTED: 24745: McGregor, Dunca, The Loss of the Kent, Shipwrecks
+NOT INSERTED: 24742: Stephens, James, Mary, Mary, Mothers and daughters --
+
+
+Before collectGarbage() mSize: 4863 mSizeHard: 4863
+
+
+After collectGarbage() mSize: 4863 mSizeHard: 4863
+Press any key to continue . . .
+
+---Run5---
+//end of run: inserting all ebooks again (should 'overwrite'
+soft deleted and not insert any already in tree). Changed
+output to show inserted ebooks.
+
+
+Num Books: 4863, Tree Size: 4863
+
+
+Attempting 20 finds:
+Found: 23574: La Monte, Rober, Socialism: Positive , (no data found)
+Found: 22740: Unknown, The Apple Dumpling a, (no data found)
+Found: 22693: Lang, Jeanie, A Book of Myths, Mythology
+Found: 28486: Cole, Everett B, The Weakling, Science fiction
+Found: 28488: Moli+퓊e, 1622-, Tartuffeor The Hypoc, Comedies
+Found: 28489: Locke, William , The Belov+촥 Vagabon, PR
+Found: 28490: Girl Scouts of , Scouting For Girls, , Girl Scouts -- Handbooks,
+Found: 23448: Brown, Ruth Alb, Heart of Gold, People with disabilities
+Found: 22599: Karpinski, Loui, The Hindu-Arabic Num, Numerals
+Found: 23337: Ing, Dean Charl, Tight Squeeze, Science fiction
+Found: 22360: Bradley, Mary H, The Fortieth Door, PS
+Found: 23293: Lawrence, Rober, Primitive Psycho-The, (no data found)
+Found: 28066: Various, The Christian Founda, Religion and science -- P
+Found: 28067: Smith, J. Allen, The Spirit of Americ, Constitutional history --
+Found: 28069: Bangs, John Ken, Alice in Blunderland, Fantasy
+Found: 28070: Harriman, Alice, A Man of Two Countri, PS
+Found: 23205: Various, Notes and Queries, N, Questions and answers --
+Found: 22171: Ernst, Paul, 18, The Radiant Shell, Science fiction
+Found: 23075: Baum, L. Frank , Ozma of Oz, Oz (Imaginary place) -- F
+Found: 29230: Barker, James N, The Indian PrincessL, American drama
+
+
+Attempting 20 removals:
+
+INSERTED: 23574: La Monte, Rober, Socialism: Positive , (no data found)
+INSERTED: 22740: Unknown, The Apple Dumpling a, (no data found)
+INSERTED: 22693: Lang, Jeanie, A Book of Myths, Mythology
+INSERTED: 28486: Cole, Everett B, The Weakling, Science fiction
+INSERTED: 28488: Moli+퓊e, 1622-, Tartuffeor The Hypoc, Comedies
+INSERTED: 28489: Locke, William , The Belov+촥 Vagabon, PR
+INSERTED: 28490: Girl Scouts of , Scouting For Girls, , Girl Scouts -- Handbooks
+,
+INSERTED: 23448: Brown, Ruth Alb, Heart of Gold, People with disabilities
+INSERTED: 22599: Karpinski, Loui, The Hindu-Arabic Num, Numerals
+INSERTED: 23337: Ing, Dean Charl, Tight Squeeze, Science fiction
+INSERTED: 22360: Bradley, Mary H, The Fortieth Door, PS
+INSERTED: 23293: Lawrence, Rober, Primitive Psycho-The, (no data found)
+INSERTED: 28066: Various, The Christian Founda, Religion and science -- P
+INSERTED: 28067: Smith, J. Allen, The Spirit of Americ, Constitutional history -
+-
+INSERTED: 28069: Bangs, John Ken, Alice in Blunderland, Fantasy
+INSERTED: 28070: Harriman, Alice, A Man of Two Countri, PS
+INSERTED: 23205: Various, Notes and Queries, N, Questions and answers --
+INSERTED: 22171: Ernst, Paul, 18, The Radiant Shell, Science fiction
+INSERTED: 23075: Baum, L. Frank , Ozma of Oz, Oz (Imaginary place) -- F
+INSERTED: 29230: Barker, James N, The Indian PrincessL, American drama
+
+
+Before collectGarbage() mSize: 4863 mSizeHard: 4863
+
+
+After collectGarbage() mSize: 4863 mSizeHard: 4863
+Press any key to continue . . .
+
+---Run6---
+Num Books: 4863, Tree Size: 4863
+
+
+Attempting 20 finds:
+Found: 23574: La Monte, Rober, Socialism: Positive , (no data found)
+Found: 22740: Unknown, The Apple Dumpling a, (no data found)
+Found: 22693: Lang, Jeanie, A Book of Myths, Mythology
+Found: 28486: Cole, Everett B, The Weakling, Science fiction
+Found: 28488: Moli+퓊e, 1622-, Tartuffeor The Hypoc, Comedies
+Found: 28489: Locke, William , The Belov+촥 Vagabon, PR
+Found: 28490: Girl Scouts of , Scouting For Girls, , Girl Scouts -- Handbooks,
+Found: 23448: Brown, Ruth Alb, Heart of Gold, People with disabilities
+Found: 22599: Karpinski, Loui, The Hindu-Arabic Num, Numerals
+Found: 23337: Ing, Dean Charl, Tight Squeeze, Science fiction
+Found: 22360: Bradley, Mary H, The Fortieth Door, PS
+Found: 23293: Lawrence, Rober, Primitive Psycho-The, (no data found)
+Found: 28066: Various, The Christian Founda, Religion and science -- P
+Found: 28067: Smith, J. Allen, The Spirit of Americ, Constitutional history --
+Found: 28069: Bangs, John Ken, Alice in Blunderland, Fantasy
+Found: 28070: Harriman, Alice, A Man of Two Countri, PS
+Found: 23205: Various, Notes and Queries, N, Questions and answers --
+Found: 22171: Ernst, Paul, 18, The Radiant Shell, Science fiction
+Found: 23075: Baum, L. Frank , Ozma of Oz, Oz (Imaginary place) -- F
+Found: 29230: Barker, James N, The Indian PrincessL, American drama
+
+
+Attempting 20 removals:
+Remove all the books.
+
+Before collectGarbage() mSize: 0 mSizeHard: 4863
+
+
+After collectGarbage() mSize: 0 mSizeHard: 0
+Press any key to continue . . .
+
+---Run7---
+//Remove all the books except one. Check collectGarbage()
+
+Num Books: 4863, Tree Size: 4863
+
+
+Attempting 20 finds:
+Found: 23574: La Monte, Rober, Socialism: Positive , (no data found)
+Found: 22740: Unknown, The Apple Dumpling a, (no data found)
+Found: 22693: Lang, Jeanie, A Book of Myths, Mythology
+Found: 28486: Cole, Everett B, The Weakling, Science fiction
+Found: 28488: Moli+퓊e, 1622-, Tartuffeor The Hypoc, Comedies
+Found: 28489: Locke, William , The Belov+촥 Vagabon, PR
+Found: 28490: Girl Scouts of , Scouting For Girls, , Girl Scouts -- Handbooks,
+Found: 23448: Brown, Ruth Alb, Heart of Gold, People with disabilities
+Found: 22599: Karpinski, Loui, The Hindu-Arabic Num, Numerals
+Found: 23337: Ing, Dean Charl, Tight Squeeze, Science fiction
+Found: 22360: Bradley, Mary H, The Fortieth Door, PS
+Found: 23293: Lawrence, Rober, Primitive Psycho-The, (no data found)
+Found: 28066: Various, The Christian Founda, Religion and science -- P
+Found: 28067: Smith, J. Allen, The Spirit of Americ, Constitutional history --
+Found: 28069: Bangs, John Ken, Alice in Blunderland, Fantasy
+Found: 28070: Harriman, Alice, A Man of Two Countri, PS
+Found: 23205: Various, Notes and Queries, N, Questions and answers --
+Found: 22171: Ernst, Paul, 18, The Radiant Shell, Science fiction
+Found: 23075: Baum, L. Frank , Ozma of Oz, Oz (Imaginary place) -- F
+Found: 29230: Barker, James N, The Indian PrincessL, American drama
+
+
+Attempting 20 removals:
+INSERTED: 23574: La Monte, Rober, Socialism: Pos
+itive , (no data found)
+INSERTED: 22740: Unknown, The Apple Dumpling a, (no data found)
+INSERTED: 22693: Lang, Jeanie, A Book of Myths, Mythology
+INSERTED: 28486: Cole, Everett B, The Weakling, Science fiction
+INSERTED: 28488: Moli+퓊e, 1622-, Tartuffeor The Hypoc, Comedies
+INSERTED: 28489: Locke, William , The Belov+촥 Vagabon, PR
+INSERTED: 28490: Girl Scouts of , Scouting For Girls, , Girl Scouts -- Handbooks
+,
+INSERTED: 23448: Brown, Ruth Alb, Heart of Gold, People with disabilities
+INSERTED: 22599: Karpinski, Loui, The Hindu-Arabic Num, Numerals
+INSERTED: 23337: Ing, Dean Charl, Tight Squeeze, Science fiction
+INSERTED: 22360: Bradley, Mary H, The Fortieth Door, PS
+INSERTED: 23293: Lawrence, Rober, Primitive Psycho-The, (no data found)
+INSERTED: 28066: Various, The Christian Founda, Religion and science -- P
+INSERTED: 28067: Smith, J. Allen, The Spirit of Americ, Constitutional history -
+-
+INSERTED: 28069: Bangs, John Ken, Alice in Blunderland, Fantasy
+INSERTED: 28070: Harriman, Alice, A Man of Two Countri, PS
+INSERTED: 23205: Various, Notes and Queries, N, Questions and answers --
+INSERTED: 22171: Ernst, Paul, 18, The Radiant Shell, Science fiction
+INSERTED: 23075: Baum, L. Frank , Ozma of Oz, Oz (Imaginary place) -- F
+INSERTED: 29230: Barker, James N, The Indian PrincessL, American drama
+
+Remove all the books except one.
+
+Before collectGarbage() mSize: 1 mSizeHard: 4863
+
+
+After collectGarbage() mSize: 1 mSizeHard: 1
+Press any key to continue . . .

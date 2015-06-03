@@ -1,0 +1,51 @@
+The time complexity (big O) of matrix multiplication for
+two MxM matrices is O(M^3). This is because there
+are 3 nested for loops which loop from 0 to M.
+
+The lower growth bounds (omega) is equivalent, because 
+the 3 nested for loops must always run to completion. 
+
+Therefore, the exact growth(theta) will also be equivalent,
+O(M^3).
+
+O(M^3) is cubic.
+
+What was the smallest M that gave you a non-zero time?
+M = 79
+
+What happened when you doubled M , tripled it, quadrupled it, etc?
+Give several M values and their times in a table.
++---------+-----------------+
+| M-Value |      Time       |
++---------+-----------------+
+|      10 | 0.00 seconds.   |
+|      30 | 0.00 seconds.   |
+|      60 | 0.00 seconds.   |
+|      80 | 0.01 seconds.   |
+|     100 | 0.01 seconds.   |
+|     200 | 0.07 seconds.   |
+|     300 | 0.23 seconds.   |
+|     400 | 0.68 seconds.   |
+|     500 | 1.47 seconds    |
+|    1000 | 36.34 seconds.  |
+|    1500 | 124.66 seconds. |
++---------+-----------------+
+Doubling M took ~10 times longer
+Tripling M took ~25 times longer
+Quadrupling M took ~70 times longer
+5M took ~145 times longer
+
+How large an M can you use before the program refuses to run 
+exception or run-time error due to memory overload) or it takes
+so long you can't wait for the run?
+The largest M I could run was 1500 before wait times became
+excessive
+
+How did the data agree or disagree with your original time
+complexity estimate?
+The data supported my hypothesis O(M^3) up through five times
+M. The expected times for O(M^3) would be:
+doubling: 2^3 = 8 times longer
+tripling: 3^3 = 27 times longer
+quadrupling: 4^3 = 64 times longer
+5M: 5^3 = 125 times longer 

@@ -1,0 +1,98 @@
+Are the times longer or shorter than for dynamic matrices?
+For 1% sparse matrices multiplication, my times were:
++---------+----------------+
+| M-Value |      Time      |
++---------+----------------+
+|     200 | 0.0 seconds.   |
+|     400 | 0.1 seconds.   |
+|     800 | 1.3 seconds.   |
+|    1200 | 8.3 seconds.   |
+|    1600 | 32.3 seconds.  |
+|    2000 | 94.4 seconds.  |
+|    2400 | 226.2 seconds.  |
+|    3200 | 908.0 seconds. |
++---------+----------------+
+
+For dynamic matrices multiplication, my times were:
++---------+-----------------+
+| M-Value |      Time       |
++---------+-----------------+
+|      10 | 0.00 seconds.   |
+|      30 | 0.00 seconds.   |
+|      60 | 0.00 seconds.   |
+|      80 | 0.01 seconds.   |
+|     100 | 0.01 seconds.   |
+|     200 | 0.07 seconds.   |
+|     300 | 0.23 seconds.   |
+|     400 | 0.68 seconds.   |
+|     500 | 1.47 seconds    |
+|    1000 | 36.34 seconds.  |
+|    1500 | 124.66 seconds. |
++---------+-----------------+
+From the above data, 1% sparse matrices multiplication
+was faster in all tested cases, 4 times faster at M=~1500
+
+Are the growth rates larger or smaller?  By how much?
+The growth rates seem to stabilize at 30 times longer
+per doubling for the sparse matrices multiplication. So as
+M grows larger, the sparse matrices multiplication algorithm I
+wrote has a smaller growth rate (relative to the dynamic
+multiplication).
+
+
+Create a table and answer the same questions as before:
+
+The longest possible run of matrices multiplication for an MxM
+matrix times an NxN matrix with my program is O(M^3).
+This only occurs if both matrices have no 0/default values.
+
+The lower growth bounds (omega) is 0 in the event that matrix M has only
+0/default values.
+
+The actual runtime will depend on the sparse matrices density, and where the
+row nodes of matrix M and column nodes of matrix N align. If x = m matrix 
+density (i.e. 1%) then the outer loop will run (x*M)/100 times. The second
+loop will also depend on matrix density, so (x*N)/100 times. The inner most
+loop will run at a maximum the number of non-zero/non-defualt nodes in M.
+
+time estimate = (x*M/100) * (x*N/100) * M
+
+What was the smallest M that gave you a non-zero time?
+M = 400
+
+What happened when you doubled M , tripled it, quadrupled it, etc?
+Give several M values and their times in a table.
++---------+----------------+
+| M-Value |      Time      |
++---------+----------------+
+|     200 | 0.0 seconds.   |
+|     400 | 0.1 seconds.   |
+|     800 | 1.3 seconds.   |
+|    1200 | 8.3 seconds.   |
+|    1600 | 32.3 seconds.  |
+|    2000 | 94.4 seconds.  |
+|    3200 | 908.0 seconds. |
++---------+----------------+
+Every doubling, the run took 30 times longer.
+This growth trend remained through all tested M.
+
+How large an M can you use before the program refuses to run 
+exception or run-time error due to memory overload) or it takes
+so long you can't wait for the run?
+The largest M I could run was 3200 before wait times became
+excessive
+
+How did the data agree or disagree with your original time
+complexity estimate?
+I did not expect to achieve a stabilized growth trend (30 times longer
+per doubling). The density of the matrices played a very significant role
+in run times as expected.
+
+What was the largest M you could use here, and was the reason the same or different than for dynamic arrays?
+The largest M I could use here was 3200, which is much more than twice what I could run
+for dynamic arrays. In both cases I stopped when run times became too long.
+
+If you have time, modify 1% to be .5% or .1% or even less and see if the growth rates change.
+0.1% runs were significantly faster - M = 3200 ran in 0.3 seconds and M = 1600 ran in 0.0 seconds.
+
+

@@ -1,0 +1,37 @@
+
+---Run 1---
+
+Target time: 180
+Sublist -----------------------------
+Sum: 179
+   array[0] = 20,   array[1] = 12,   array[3] = 15,   array[4] = 25,   array[5]
+= 19,   array[6] = 29,   array[7] = 18,   array[8] = 11,   array[9] = 13,   arra
+y[10] = 17,
+
+Press any key to continue . . .
+
+
+---Run 2---
+
+Target time: 70
+Sublist -----------------------------
+Sum: 70
+   array[2] = 22,   array[5] = 19,   array[6] = 29,
+
+Press any key to continue . . .
+
+---Run 3---
+
+Target time: 150
+Sublist -----------------------------
+Sum: 150
+   array[0] = 20,   array[1] = 12,   array[2] = 22,   array[4] = 25,   array[6]
+= 29,   array[7] = 18,   array[8] = 11,   array[9] = 13,
+
+Press any key to continue . . .
+
+---Run 3---
+
+Target time: 300
+Error: Target exceeds maximum sum
+Press any key to continue . . .

@@ -1,0 +1,709 @@
+---Test 1---
+//initial run with int key
+
+catalog-short4.txt
+4863
+
+Random Ebooks:
+5900: Garis, Howard R, Umboo, the Elephant, (no data found)
+25207: Various, Blackwood's Edinburg, AP
+28336: Various, Blackwood's Edinburg, AP
+28107: Vardon, Harry, , The Complete Golfer, Golf
+25813: Moore, Frederic, Isle o' Dreams, Islands -- Fiction
+6321: Belt, Thomas, 1, The Naturalist in Ni, Natural history -- Nicara
+25126: Finot, Jean, 18, Modern Saints and Se, Religions
+347: Unknown, Grettir the Strong, , Vikings -- Fiction
+25031: Carryl, Charles, Davy and The GoblinW, Fantasy
+26449: Fairholt, F. W., Rambles of an Archae, Art
+29698: Bond, Nelson Sl, Lighter Than You Thi, Science fiction
+27852: Sylvain, Adrien, Gold DustA Collectio, Devotional literature
+29951: Various, The Mayflower, Janua, Horticulture -- Periodica
+22798: Unknown, The Book of Job, (no data found)
+26330: Lawson, Thomas , Frenzied FinanceVol., Speculation
+28998: Cooke, Maud C., Social Lifeor, The M, Etiquette
+19801: Fortescue, J. W, The Drummer's Coat, (no data found)
+27336: Wilcox, Ella Wh, Three Women, Poetry
+27079: Yates, Dornford, Jonah and Co., Love stories
+27237: Challis, James,, An Essay on the Scri, Immortality
+29945: Harker, L. Alle, Jan and Her Job, Fiction
+28232: Housman, Lauren, PossessionA Peep-Sho, PR
+27245: Roper, Dora C. , Food for the Travele, Cookery, American
+17635: Christophe, Jul, Repertory Of The Com, (no data found)
+29333: Jones, Henry Pa, War Letters of a Pub, World War, 1914-1918 -- P
+
+The same random books from the hash table
+5900: Garis, Howard R, Umboo, the Elephant, (no data found)
+25207: Various, Blackwood's Edinburg, AP
+28336: Various, Blackwood's Edinburg, AP
+28107: Vardon, Harry, , The Complete Golfer, Golf
+25813: Moore, Frederic, Isle o' Dreams, Islands -- Fiction
+6321: Belt, Thomas, 1, The Naturalist in Ni, Natural history -- Nicara
+25126: Finot, Jean, 18, Modern Saints and Se, Religions
+347: Unknown, Grettir the Strong, , Vikings -- Fiction
+25031: Carryl, Charles, Davy and The GoblinW, Fantasy
+26449: Fairholt, F. W., Rambles of an Archae, Art
+29698: Bond, Nelson Sl, Lighter Than You Thi, Science fiction
+27852: Sylvain, Adrien, Gold DustA Collectio, Devotional literature
+29951: Various, The Mayflower, Janua, Horticulture -- Periodica
+22798: Unknown, The Book of Job, (no data found)
+26330: Lawson, Thomas , Frenzied FinanceVol., Speculation
+28998: Cooke, Maud C., Social Lifeor, The M, Etiquette
+19801: Fortescue, J. W, The Drummer's Coat, (no data found)
+27336: Wilcox, Ella Wh, Three Women, Poetry
+27079: Yates, Dornford, Jonah and Co., Love stories
+27237: Challis, James,, An Essay on the Scri, Immortality
+29945: Harker, L. Alle, Jan and Her Job, Fiction
+28232: Housman, Lauren, PossessionA Peep-Sho, PR
+27245: Roper, Dora C. , Food for the Travele, Cookery, American
+17635: Christophe, Jul, Repertory Of The Com, (no data found)
+29333: Jones, Henry Pa, War Letters of a Pub, World War, 1914-1918 -- P
+
+Test Failures:
+Book Not Found.
+Press any key to continue . . .
+
+---Test 2---
+//initial run with string key
+
+catalog-short4.txt
+4863
+
+Random Ebooks:
+25244: Sykes, Frederic, Aviation in Peace an, Aeronautics
+29232: Bury, Charlotte, The Lady's Own Cooke, Cookery, English
+12623: Defoe, Daniel, , The Life and Adventu, PR
+27635: Dudeney, Henry , The Canterbury Puzzl, Puzzles
+27932: Hamarneh, Sami , History of the Divis, Museum of History and Tec
+26213: Twain, Mark, 18, Fenimore Cooper's Li, American literature -- Hi
+30248: Barhydt, Jerome, Crayon PortraitureCo, Colors
+356: Doyle, Arthur C, Beyond the City, Suburbs -- Great Britain
+21364: Fenn, George Ma, The Rajah of Dah, (no data found)
+28052: Roe, Alfred S. , John Brown: A Retros, Brown, John, 1800-1859
+29478: Mandeville, Ber, A Letter to Dion, Berkeley, George, 1685-17
+25654: MacGregor, Mary, Stories of King Arth, Arthurian romances -- Ada
+18109: Piper, H. Beam,, Graveyard of Dreams, (no data found)
+1691: King, Martin Lu, I Have a Dream, Mart, African Americans -- Civi
+29087: Various, Harper's Young Peopl, Children's periodicals, A
+28185: Various, Harper's Young Peopl, Children's periodicals, A
+28812: Butler, George , Every Girl's Book, Sex instruction
+28518: Janifer, Lauren, Mex, Short stories
+26803: (no data found), King Hacon's Death a, English poetry
+26783: Browne, A. K., The Story of the Kea, United States -- History
+25420: Wright, Orville, The Early History of, Airplanes
+4319: Clontz, J., The Gospels in Four , Bible. N.T. Gospels -- Ha
+26653: Optic, Oliver, , Up The BalticYoung A, Conduct of life -- Juveni
+27300: Alger, Horatio,, The Young Adventurer, Conduct of life -- Fictio
+5461: Ebers, Georg, 1, The Sisters GÇö Volu, Egypt -- History -- 332-3
+
+The same random books from the hash table
+25244: Sykes, Frederic, Aviation in Peace an, Aeronautics
+29232: Bury, Charlotte, The Lady's Own Cooke, Cookery, English
+30159: Defoe, Daniel, , The True-Born Englis, National characteristics,
+27635: Dudeney, Henry , The Canterbury Puzzl, Puzzles
+27932: Hamarneh, Sami , History of the Divis, Museum of History and Tec
+26213: Twain, Mark, 18, Fenimore Cooper's Li, American literature -- Hi
+30248: Barhydt, Jerome, Crayon PortraitureCo, Colors
+28733: Doyle, Arthur C, The Adventures of Sh, Holmes, Sherlock (Fictiti
+21495: Fenn, George Ma, To The West, (no data found)
+28052: Roe, Alfred S. , John Brown: A Retros, Brown, John, 1800-1859
+29478: Mandeville, Ber, A Letter to Dion, Berkeley, George, 1685-17
+28688: MacGregor, Mary, The Silver Maple, Canada, Northern -- Ficti
+28792: Piper, H. Beam,, Omnilingual, Science fiction
+1691: King, Martin Lu, I Have a Dream, Mart, African Americans -- Civi
+28712: Various, The American Mission, Congregational churches -
+28712: Various, The American Mission, Congregational churches -
+28812: Butler, George , Every Girl's Book, Sex instruction
+28518: Janifer, Lauren, Mex, Short stories
+28351: (no data found), Dick and His Cat and, Animals -- Juvenile ficti
+26783: Browne, A. K., The Story of the Kea, United States -- History
+25420: Wright, Orville, The Early History of, Airplanes
+4319: Clontz, J., The Gospels in Four , Bible. N.T. Gospels -- Ha
+28038: Optic, Oliver, , Watch and Waitor The, Fugitive slaves -- Juveni
+28381: Alger, Horatio,, Ben, the Luggage Boy, Runaways -- Fiction
+28898: Ebers, Georg, 1, The Historical Novel, Historical fiction
+
+Test Failures:
+Book Not Found.
+Press any key to continue . . .
+
+---Test 3---
+//test find on deleted ebooks
+
+catalog-short4.txt
+4863
+
+Random Ebooks:
+2081: Hawthorne, Nath, The Blithedale Roman, Autobiographical fiction
+27095: Baker, Willard , The Boy Ranchers at , Ranches -- Juvenile ficti
+26788: (no data found), Brown WilliamThe Pow, English poetry
+29304: Fletcher, J. S., In the Days of  Drak, Drake, Francis, Sir, 1540
+27977: Morris, Edward , Austral EnglishA dic, English language -- Austr
+28513: Mather, Cotton,, The Wonders of the I, Witchcraft -- New England
+29188: Sallengre, Albe, Ebrietatis Encomiumo, Drinking customs -- Early
+26423: (no data found), Great Men and Famous, Biography
+29252: Kahn, Otto Herm, War TaxationSome Com, World War, 1914-1918 -- F
+17204: Hearn, George W, Researches on curves, (no data found)
+27078: United States. , Senate Resolution 6;, Bills, Legislative -- Uni
+25737: Wilson, Ann, ConcordanceA Terran , Reference
+5963: McCutcheon, Geo, Mr. Bingle, (no data found)
+25076: Cable, Boyd, 18, Between the Lines, World War, 1914-1918
+20863: Quiller-Couch, , Major Vigoureux, (no data found)
+28418: Meader, Stephen, The Black Buccaneer, Adventure stories
+29951: Various, The Mayflower, Janua, Horticulture -- Periodica
+29863: A. L. O. E., 18, The Rambles of a Rat, Rats -- Juvenile fiction
+27179: Kochanowski, Ja, Laments, Bereavement -- Poetry
+28837: Jerome, Jerome , Three Men in a Boat , Young men -- Travel -- En
+29111: Locker-Lampson,, What the Blackbird s, Birds -- Juvenile literat
+25045: Mathews, Cornel, ChanticleerA Thanksg, Thanksgiving Day -- Juven
+28173: Mueller, John T, Three Young Pioneers, Puritans -- Juvenile fict
+29620: Rocklynne, Ross, Sorry: Wrong Dimensi, Science fiction
+27683: Keller, Helen, , The World I Live In, Senses and sensation
+
+Remove random books from the hash table
+book removed
+book removed
+book removed
+book removed
+book removed
+book removed
+book removed
+book removed
+book removed
+book removed
+book removed
+book removed
+book removed
+book removed
+book removed
+book removed
+book removed
+book removed
+book removed
+book removed
+book removed
+book removed
+book removed
+book removed
+book removed
+
+The same random books from the hash table
+Book Not Found.
+Book Not Found.
+Book Not Found.
+Book Not Found.
+Book Not Found.
+Book Not Found.
+Book Not Found.
+Book Not Found.
+Book Not Found.
+Book Not Found.
+Book Not Found.
+Book Not Found.
+Book Not Found.
+Book Not Found.
+Book Not Found.
+Book Not Found.
+Book Not Found.
+Book Not Found.
+Book Not Found.
+Book Not Found.
+Book Not Found.
+Book Not Found.
+Book Not Found.
+Book Not Found.
+Book Not Found.
+
+Test Failures:
+Book Not Found.
+Press any key to continue . . .
+
+
+---Test 4---
+//test find on deleted then reinserted ebooks
+
+catalog-short4.txt
+4863
+
+Random Ebooks:
+26149: Barbour, Ralph , Left Guard Gilbert, Football -- Juvenile fict
+28269: Day, Lewis Fore, Art in NeedleworkA B, Embroidery
+28577: Barrows, David , The Negrito and Alli, Ethnology -- Philippines
+25901: (no data found), The New TestamentTra, Bible. N.T.
+30106: Fenn, George Ma, The Vast AbyssThe St, Fiction
+27834: Bassett, Sara W, Paul and the Printin, Printing -- Juvenile lite
+356: Doyle, Arthur C, Beyond the City, Suburbs -- Great Britain
+20863: Quiller-Couch, , Major Vigoureux, (no data found)
+26908: Marcet, Mrs. (J, Conversations on Che, Chemistry
+29759: Slater, John, 1, ArchitectureClassic , Architecture -- History
+29203: Emerson, Alice , Ruth Fielding at Bri, PZ
+26952: Samuels, S. B. , Ericor, Under the Se, Deep diving -- Juvenile l
+26193: Stratemeyer, Ed, The Rover Boys in So, Detective and mystery sto
+25878: Gates, William,, Commentary Upon the , Maya language -- Texts
+28996: Archer, Thomas,, Miss Grantley's Girl, (no data found)
+3117: Warner, Charles, The Relation of Lite, Literature
+29609: Seaton, R. C. (, Six Letters From the, Australia -- Description
+28454: Baily, Waldron,, Heart of the Blue Ri, Mountain life -- Fiction
+28972: Becke, Louis, 1, The Works Of Louis B, Indexes
+28294: Wylie, James Ai, Pilgrimage from the , Italy -- Description and
+28954: Sheldon, Walter, This is Klon Calling, Science fiction
+25510: Meade, L. T., 1, Betty VivianA Story , Schools -- Juvenile ficti
+28643: Garrett, Randal, Belly Laugh, Science fiction
+26847: Bird, Frederic , A PessimistIn Theory, PS
+26089: Various, Punch, or the London, English wit and humor --
+
+Remove random books from the hash table
+book removed
+book removed
+book removed
+book removed
+book removed
+book removed
+book removed
+book removed
+book removed
+book removed
+book removed
+book removed
+book removed
+book removed
+book removed
+book removed
+book removed
+book removed
+book removed
+book removed
+book removed
+book removed
+book removed
+book removed
+book removed
+
+Reinsert random books from the hash table
+book inserted
+book inserted
+book inserted
+book inserted
+book inserted
+book inserted
+book inserted
+book inserted
+book inserted
+book inserted
+book inserted
+book inserted
+book inserted
+book inserted
+book inserted
+book inserted
+book inserted
+book inserted
+book inserted
+book inserted
+book inserted
+book inserted
+book inserted
+book inserted
+book inserted
+
+The same random books from the hash table
+26149: Barbour, Ralph , Left Guard Gilbert, Football -- Juvenile fict
+28269: Day, Lewis Fore, Art in NeedleworkA B, Embroidery
+28577: Barrows, David , The Negrito and Alli, Ethnology -- Philippines
+25901: (no data found), The New TestamentTra, Bible. N.T.
+30106: Fenn, George Ma, The Vast AbyssThe St, Fiction
+27834: Bassett, Sara W, Paul and the Printin, Printing -- Juvenile lite
+356: Doyle, Arthur C, Beyond the City, Suburbs -- Great Britain
+20863: Quiller-Couch, , Major Vigoureux, (no data found)
+26908: Marcet, Mrs. (J, Conversations on Che, Chemistry
+29759: Slater, John, 1, ArchitectureClassic , Architecture -- History
+29203: Emerson, Alice , Ruth Fielding at Bri, PZ
+26952: Samuels, S. B. , Ericor, Under the Se, Deep diving -- Juvenile l
+26193: Stratemeyer, Ed, The Rover Boys in So, Detective and mystery sto
+25878: Gates, William,, Commentary Upon the , Maya language -- Texts
+28996: Archer, Thomas,, Miss Grantley's Girl, (no data found)
+3117: Warner, Charles, The Relation of Lite, Literature
+29609: Seaton, R. C. (, Six Letters From the, Australia -- Description
+28454: Baily, Waldron,, Heart of the Blue Ri, Mountain life -- Fiction
+28972: Becke, Louis, 1, The Works Of Louis B, Indexes
+28294: Wylie, James Ai, Pilgrimage from the , Italy -- Description and
+28954: Sheldon, Walter, This is Klon Calling, Science fiction
+25510: Meade, L. T., 1, Betty VivianA Story , Schools -- Juvenile ficti
+28643: Garrett, Randal, Belly Laugh, Science fiction
+26847: Bird, Frederic , A PessimistIn Theory, PS
+26089: Various, Punch, or the London, English wit and humor --
+
+Test Failures:
+Book Not Found.
+Press any key to continue . . .
+
+---Test 5---
+//test large find
+
+27356: Mitton, G. E. (, ChelseaThe Fascinati, Chelsea (London, England)
+28791: Garland, Hamlin, A Son of the Middle , Authors, American -- 20th
+13974: Warren, G. B., The Last West and Pa, (no data found)
+27704: Buckingham and , Memoirs of the Court, Great Britain -- Politics
+29374: Wallace, Dillon, The Gaunt Gray WolfA, PS
+25771: Turgenev, Ivan , A Nobleman's Nest, Short stories
+29564: Goodman, Walter, The Pearl of the Ant, Cuba -- Description and t
+3310: Sewell, Robert,, A Forgotten Empire (, Vijayanagar (Empire) -- H
+25117: Burne, C. R. N., With the Naval Briga, South African War, 1899-1
+29646: Evans, Larry, -, Once to Every Man, PS
+28362: Various, Harper's Young Peopl, Children's periodicals, A
+26086: Hannay, James, , Wilmot and Tilley, New Brunswick (Canada : P
+27549: Le Queux, Willi, The Seven Secrets, PR
+25646: Andrews, Jane, , Child's Health Prime, Physiology -- Juvenile li
+19226: Various, The Dog's Book of Ve, Dogs -- Poetry
+25876: Brown, George D, The House with the G, Scotland -- Social life a
+30134: Rogers, L. W. (, Elementary Theosophy, Theosophy
+29981: Hartley, C. Gas, The Truth About Woma, Women
+26317: (no data found), Buchanan's Journal o, Science -- Periodicals
+26034: Baldwin, Gerald, Grey TownAn Australi, Australia -- Fiction
+25781: Goddard, Charle, The Ghost BreakerA N, Detective and mystery sto
+26202: Tagore, Rabindr, Sadhana, the Realisa, Philosophy, Hindu
+3796: Montgomery, L. , Rilla of Ingleside, World War, 1914-1918 -- P
+28854: Brazil, Angela,, The Leader of the Lo, Schools -- Juvenile ficti
+27618: Warner, Susan, , The End of a Coil, PZ
+28276: MacGregor, Mary, The End of the Rainb, PS
+30094: Chapman, Allen, Fred Fenton Marathon, Marathon running -- Juven
+30130: Ballou, Maturin, Due South or Cuba Pa, Cuba
+29569: Unknown, The Mysterious Murde, Bryan, Pearl, d. 1896
+29295: Molesworth, Mrs, Great Uncle Hoot-Too, PZ
+29233: United States. , The 2008 CIA World F, World politics -- Handboo
+30251: Fontenay, Charl, Disqualified, Science fiction
+20395: Rose, Geoffrey , The Story of the 2/4, World War, 1914-1918 -- R
+25508: Besant, Walter,, The Strand DistrictT, Strand, The (London, Engl
+27089: Westlake, Donal, The Risk Profession, Science fiction
+27467: (no data found), Stories to Read or T, Fairy tales
+27794: Souvestre, Pier, Fant+¦mas, Detective and mystery sto
+30115: Sedgwick, Anne , Tante, Fiction
+29949: Washington, Geo, Washington's Masonic, Washington, George, 1732-
+5463: Ebers, Georg, 1, The Sisters GÇö Volu, Egypt -- History -- 332-3
+24771: Lewis, W. S. (W, Tutors' Lane, Love stories
+29087: Various, Harper's Young Peopl, Children's periodicals, A
+
+The same random books from the hash table
+28503: Sanborn, Kate, , The Wit of WomenFour, Wit and humor
+26185: Various, Lippincott's Magazin, AP
+15187: Crawford, F. Ma, The Children of the , (no data found)
+12231: Various, Punch, or the London, English wit and humor --
+9432: Hardy, Thomas, , Satires of Circumsta, English poetry
+28232: Housman, Lauren, PossessionA Peep-Sho, PR
+25075: Carmichael-Smyt, A Letter from Major , Haliburton, Thomas Chandl
+28781: Twain, Mark, 18, Extracts from Adam's, Humorous stories
+29022: (no data found), Mr. Punch AwheelThe , English wit and humor
+7450: Scott, Ernest, , Terre Napole+¦n; a H, Napoleon I, Emperor of th
+29209: Merwin, Sam, 19, Reel Life Films, Science fiction
+27396: (no data found), Proud Signildand Oth, English poetry
+27632: Hardy, E. D., Transactions of the , Civil engineering -- Peri
+4824: Motley, John Lo, The Rise of the Dutc, Netherlands -- History --
+17467: Forester, Fanny, Effie MauriceOr What, (no data found)
+28250: Various, Harper's Young Peopl, Children's periodicals, A
+28508: Unknown, The Comical Creature, Animals -- Juvenile ficti
+26319: Hamlin, A. D. F, A Text-Book of the H, Architecture -- History
+24971: Peck, Ellen Mar, Travels in the Far E, Egypt -- Description and
+25909: Various, The ArenaVolume 4, N, AP
+25337: Atkinson, Willi, Genuine Mediumship o, Mediums
+28747: Holmes, Oliver , The Works Of Oliver , Indexes
+29479: Cullum, Ridgwel, The Night RidersA Ro, Western stories
+26734: Abbott, Jacob, , Charles IMakers of H, Charles I, King of Englan
+25081: Cooke, Marjorie, The Cricket, Family -- Fiction
+25567: Cox, Irving E., Impact, Science fiction
+29217: Various, Punch or the London , English wit and humor --
+26282: Musick, John R., The Witch of Salemor, Historical fiction
+26262: McAulay, Alexan, Utility of Quaternio, Mathematical physics
+28465: Leverson, Ada, , The Limit, PR
+25164: Reid, Mayne, 18, The Flag of Distress, Christian life -- Juvenil
+27098: Lebert, Marie, Technology and Books, (no data found)
+3160: Homer, 750? BC-, The Odyssey, Homer -- Translations int
+8221: Perry, Bliss, 1, A Study of Poetry, (no data found)
+26107: Shaw, Bernard, , Maxims for Revolutio, Aphorisms and apothegms
+29098: Bradford, Charl, Black BassWhere to c, Black bass
+26552: Benson, Albert , Fruits of Queensland, Fruit-culture -- Queensla
+29389: Wandrei, Donald, Raiders of the Unive, Science fiction
+25824: Bailey, Arthur , The Tale of Rusty Wr, Animals -- Juvenile ficti
+30139: Giles, Harry F., The Beauties of the , Washington (State) -- Gui
+2375: Daudet, Alphons, Tartarin De Tarascon, Hunting -- Africa
+5338: Rutherford, Mar, Mark Rutherford's De, PR
+29468: Cervantes Saave, The Story of Don Qui, Spain -- Social life and
+26674: Wright Henderso, The Life and Times o, Wilkins, John, 1614-1672
+10358: Wilson, Harry L, The Boss of Little A, (no data found)
+26631: Pendexter, Hugh, A Virginia Scout, Historical fiction
+28381: Alger, Horatio,, Ben, the Luggage Boy, Runaways -- Fiction
+12632: Fields, James T, Yesterdays with Auth, (no data found)
+11378: Various, The Mirror of Litera, (no data found)
+19403: Austin, Anne, 1, Murder at Bridge, Detective and mystery sto
+26960: Johnston, Charl, Famous Privateersmen, Buccaneers
+28859: Marshall, John,, The Life Of George W, Generals -- United States
+26986: Stacpoole, H. D, The Ghost Girl, PR
+214: Lawson, Henry, , In the Days When the, Frontier and pioneer life
+28267: Thompson, Georg, Venus in Boston;A Ro, City and town life -- Fic
+25849: Ellis, Edward S, The Launch Boys' Adv, Detective and mystery sto
+25442: (no data found), Aunt Friendly's Pict, Fairy tales
+28820: Scott, Leroy, 1, Counsel for the Defe, PS
+28458: Wood-Allen, Mar, What a Young Woman O, Women -- Health and hygie
+28956: Roe, Vingie E. , Tharon of Lost Valle, Western stories
+29598: Hawley, Mabel C, Four Little Blossoms, PZ
+5246: Gunn, John Alex, Modern French Philos, Philosophy, French
+28591: (no data found), Poems with Power to , English poetry
+30035: Reynolds, Mack,, Off Course, Science fiction
+28111: Wells, Basil, 1, Moment of Truth, Science fiction
+29128: Maniates, Belle, David DunneA Romance, Middle West -- Fiction
+6812: Hay, John, 1835, Abraham Lincoln: a H, (no data found)
+29888: Carroll, Lewis,, The Hunting of the S, Nonsense verses, English
+27453: Goodchild, Geor, Colorado Jim, PR
+27481: Kendall, Elizab, A Wayfarer in ChinaI, China -- Description and
+26595: Chamberlain, Ar, The Condition and Te, Technical education -- Ge
+28491: McCulloch-Willi, Dishes &amp; Beverag, Cookery, American -- Sout
+28905: Lytton, Edward , The Works Of Edward , Indexes
+28152: Owens, John Alg, Sword and PenVenture, United States -- History
+26890: Keller, David H, The Rat Racket, Short stories
+28471: Morris, Charles, Man And His Ancestor, Human beings -- Origin
+28925: Carey, Rosa Nou, Lover or Friend, PR
+28832: Hamilton, Edmon, The Sargasso of Spac, Science fiction
+30251: Fontenay, Charl, Disqualified, Science fiction
+29103: Borrow, George , Grimhild's Vengeance, PR
+27615: Phillips, Ethel, Christmas Light, Christmas stories
+25584: Le Fanu, Joseph, The Purcell PapersIn, Fantasy fiction, English
+27481: Kendall, Elizab, A Wayfarer in ChinaI, China -- Description and
+26232: White, Ramy All, Sunny Boy in the Cou, Country life -- Juvenile
+29821: (no data found), Shakespeare Jest-Boo, Shakespeare, William, 156
+25703: (no data found), Northern Nut Growers, Northern Nut Growers Asso
+25692: Hill, B. L. (Be, An Epitome of the Ho, Homeopathy -- Popular wor
+30290: Heath, Sidney, , Our Homeland Churche, Church architecture -- Gr
+28596: Various, Punch or the London , English wit and humor --
+26954: (no data found), The Mirror of Taste,, Theater -- Periodicals
+20017: Unknown, Pages for Laughing E, (no data found)
+25919: Benson, E. F. (, Miss Mapp, Humorous stories
+219: Conrad, Joseph,, Heart of Darkness, Africa -- Fiction
+28985: Borrow, George , Tord of Hafsborougha, PR
+27966: Dehan, Richard,, The Dop Doctor, South African War, 1899-1
+30074: Raymond, Evelyn, Jessica, the Heiress, Fiction
+25222: Griffith, John , Transactions of the , Foundations
+29697: Bingham, Edfrid, The Heart of Thunder, Fiction
+28500: Ukers, William , All About Coffee, Coffee
+17635: Christophe, Jul, Repertory Of The Com, (no data found)
+29277: Lind-af-Hageby,, Mountain Meditations, Essays
+28710: Various, The Christian Founda, Religion and science -- P
+3633: Collins, Wilkie, Jezebel's Daughter, British -- Germany -- Fic
+25765: Jackson, Gabrie, A Dixie School Girl, Boarding schools -- Juven
+28589: Meade, L. T., 1, Frances Kane's Fortu, PR
+29817: Williams, Frank, The Harbor of Doubt, Canada -- Fiction
+26633: Sepharial, 1864, Second SightA study , Clairvoyance
+24772: Burnett, France, Sara Creweor, What H, Orphans -- Fiction
+18352: Curtis, Charles, Captured by the Nava, (no data found)
+30150: Intercollegiate, Prize Orations of th, War
+28959: Home, Gordon, 1, The Illustrated Work, Indexes
+27340: Smith, Francis , Outdoor SketchingFou, Landscape painting
+20580: Hugo, Victor, 1, Napoleon the Little, (no data found)
+25507: May, Sophie, 18, Little Grandmother, Christian life -- Juvenil
+30001: Price, Derek J., On the Origin of Clo, Clocks and watches
+29570: Hall, Holworthy, Rope, PS
+25064: Various, The New England Maga, New England -- Periodical
+24973: Derreaux, Gasto, The Sun King, Historical fiction
+18351: Hensley, Sophia, A Woman's Love Lette, (no data found)
+25022: Collins, Daniel, Narrative of the shi, Pirates
+26276: Stees, Charles , History of Company E, United States -- History
+25624: Lucy, Henry W. , Faces and Places, Essays
+1470: Keene, H. G. (H, Fall of the Moghul E, India -- History -- 18th
+27422: Richings, Emily, Through the Malay Ar, Malay Archipelago -- Desc
+28398: (no data found), , Exchange of publications
+28022: Norton, Brayton, El Diablo, PS
+30139: Giles, Harry F., The Beauties of the , Washington (State) -- Gui
+28357: Henty, G. A. (G, By Conduct and Coura, Nelson, Horatio Nelson, V
+30199: Derleth, August, McIlvaine's Star, Science fiction
+26892: Robins, Edward,, Chasing an Iron Hors, United States -- History
+24973: Derreaux, Gasto, The Sun King, Historical fiction
+29357: (no data found), Our Young Folks at H, Children's poetry
+16168: Grey, John W., The Master Mystery, (no data found)
+28853: Mitton, G. E. (, The Children's Book , Astronomy -- Juvenile lit
+10559: Stevenson, Robe, Ballads, (no data found)
+30004: Lewis, Richard , A Bottle of Old Wine, Science fiction
+26542: Wortman, Jacob , On The Affinities of, Leptarctus primus
+26855: Carleton, H. B., Hard Guy, Science fiction
+29099: Various, Harper's Young Peopl, Children's periodicals, A
+27055: Various, Punch, or the London, English wit and humor --
+24996: Becke, Louis, 1, The Tapu Of Banderah, Adventure stories
+4459: Meredith, Georg, Beauchamp's Career G, English fiction -- 19th c
+6436: Woolson, Consta, Castle Nowhere, (no data found)
+28392: Various, Punch, or the London, English wit and humor
+26711: Landa, Gertrude, Jewish Fairy Tales a, Fairy tales
+28997: (no data found), Great Men and Famous, Biography
+26237: Braddon, M. E. , Vixen, Volume II., Psychological fiction
+28725: Nesbit, E. (Edi, Harding's luck, Fantasy fiction
+30367: Bryan, Claude G, Old QuebecThe Fortre, Qu+¬bec (Province) -- His
+28439: Sampson, Emma S, The Comings of Cousi, PS
+353: McCrae, John, 1, In Flanders Fields a, World War, 1914-1918 -- P
+30146: Warner, Susan, , What She Could, Christian life -- Juvenil
+4946: Hume, Fergus, 1, Madame Midas, PR
+29646: Evans, Larry, -, Once to Every Man, PS
+29893: Menzies, Allan,, History of ReligionA, Religions
+26322: Molesworth, Mrs, Peterkin, PZ
+29200: Various, Harper's Young Peopl, Children's periodicals, A
+28998: Cooke, Maud C., Social Lifeor, The M, Etiquette
+26270: (no data found), The Sermon on the Mo, Sermon on the mount
+28713: Benson, Arthur , Beside Still Waters, Conduct of life -- Fictio
+29304: Fletcher, J. S., In the Days of  Drak, Drake, Francis, Sir, 1540
+29577: Blasco Ib+í+¦ez, Mayflower (Flor de m, PQ
+26123: Beecher, Cathar, An Essay on Slavery , Antislavery movements --
+28608: Stuart, William, Inside John Barth, Science fiction
+22599: Karpinski, Loui, The Hindu-Arabic Num, Numerals
+28062: Hamilton, Edmon, The Man Who Saw the , Science fiction
+29225: Brackenridge, H, The Battle of Bunker, American drama
+28932: (no data found), Eskimo Folk-Tales, Eskimos -- Folklore
+21826: Various, My Pet Recipes, Trie, Cookery, Canadian
+25112: Hopkins, J. Cas, The Life of King Edw, Edward VII, King of Great
+21058: Collingwood, Ha, The Strange Adventur, (no data found)
+26507: Washington, Boo, The Future of the Am, African Americans
+26316: Glasgow, Ellen , Virginia, PS
+13095: Moore, George, , Journal of a Voyage , (no data found)
+25497: Adams, Sherred , Five Little Friends, Friendship -- Juvenile fi
+29879: Collins, Willia, The Poetical Works o, Poetry
+29256: Kahn, Otto Herm, High Finance, Capital
+25923: Bindloss, Harol, Brandon of the Engin, Military education -- Fic
+26856: Butler, Ellis P, Solander's Radio Tom, Short stories
+17976: Carnegie, Andre, Autobiography of And, (no data found)
+28966: Blanchard, Amy , A Dear Little Girl a, PZ
+18351: Hensley, Sophia, A Woman's Love Lette, (no data found)
+21035: Reed, Talbot Ba, The Adventures of a , Conduct of life -- Juveni
+884: Mackay, Charles, Memoirs of Extraordi, Social psychology
+28732: La Fontaine, Je, Fables de La Fontain, Fables, French
+27933: Hulbert, Willia, Forest NeighborsLife, Animals -- Anecdotes
+28730: Carrier, Lyman,, Agriculture in Virgi, Agriculture -- Virginia -
+27514: Boreham, Frank,, A Handful of StarsTe, BR
+29404: Donnell, Annie , The Very Small Perso, PS
+29057: Crapo, Henry Ho, Address delivered by, Agriculture -- Michigan
+25020: Paterson, Josep, Humanistic Nursing, Nursing
+28461: Sinclair, May, , The Combined Maze, PR
+28338: Erasmus, Deside, The Education of Chi, Education -- Early works
+27810: M++ller, F. Max, Chips From A German , (no data found)
+16156: Comstock, Harri, Then Marched the Bra, (no data found)
+29904: Leonardo da Vin, Thoughts on Art and , Science
+26647: (no data found), Nuts for Future Hist, Reed, Joseph, 1741-1785
+25294: Burgess, Fred. , Chats on Household C, Interior decoration
+30120: Wilde, Oscar, 1, The Happy Prince and, Fairy tales
+28186: Various, Harper's Young Peopl, Children's periodicals, A
+25831: (no data found), Northern Nut Growers, Northern Nut Growers Asso
+28880: Wordsworth, Dor, Recollections of a T, Scotland -- Description a
+144: Woolf, Virginia, The Voyage Out, Fiction
+29579: Sheckley, Rober, Watchbird, Science fiction
+29123: Borrow, George , The Fountain of Mari, PR
+28064: Edgerton, Josep, The Relations of the, Slavery -- United States
+29942: Pierson, Hamilt, A Letter to Hon. Cha, Ku Klux Klan (19th cent.)
+25092: Herbert, Henry , The Roman Traitor (V, Rome -- History -- Republ
+27356: Mitton, G. E. (, ChelseaThe Fascinati, Chelsea (London, England)
+28791: Garland, Hamlin, A Son of the Middle , Authors, American -- 20th
+13974: Warren, G. B., The Last West and Pa, (no data found)
+27704: Buckingham and , Memoirs of the Court, Great Britain -- Politics
+29374: Wallace, Dillon, The Gaunt Gray WolfA, PS
+25771: Turgenev, Ivan , A Nobleman's Nest, Short stories
+29564: Goodman, Walter, The Pearl of the Ant, Cuba -- Description and t
+3310: Sewell, Robert,, A Forgotten Empire (, Vijayanagar (Empire) -- H
+25117: Burne, C. R. N., With the Naval Briga, South African War, 1899-1
+29646: Evans, Larry, -, Once to Every Man, PS
+28362: Various, Harper's Young Peopl, Children's periodicals, A
+26086: Hannay, James, , Wilmot and Tilley, New Brunswick (Canada : P
+27549: Le Queux, Willi, The Seven Secrets, PR
+25646: Andrews, Jane, , Child's Health Prime, Physiology -- Juvenile li
+19226: Various, The Dog's Book of Ve, Dogs -- Poetry
+25876: Brown, George D, The House with the G, Scotland -- Social life a
+30134: Rogers, L. W. (, Elementary Theosophy, Theosophy
+29981: Hartley, C. Gas, The Truth About Woma, Women
+26317: (no data found), Buchanan's Journal o, Science -- Periodicals
+26034: Baldwin, Gerald, Grey TownAn Australi, Australia -- Fiction
+25781: Goddard, Charle, The Ghost BreakerA N, Detective and mystery sto
+26202: Tagore, Rabindr, Sadhana, the Realisa, Philosophy, Hindu
+3796: Montgomery, L. , Rilla of Ingleside, World War, 1914-1918 -- P
+28854: Brazil, Angela,, The Leader of the Lo, Schools -- Juvenile ficti
+27618: Warner, Susan, , The End of a Coil, PZ
+28276: MacGregor, Mary, The End of the Rainb, PS
+30094: Chapman, Allen, Fred Fenton Marathon, Marathon running -- Juven
+30130: Ballou, Maturin, Due South or Cuba Pa, Cuba
+29569: Unknown, The Mysterious Murde, Bryan, Pearl, d. 1896
+29295: Molesworth, Mrs, Great Uncle Hoot-Too, PZ
+29233: United States. , The 2008 CIA World F, World politics -- Handboo
+30251: Fontenay, Charl, Disqualified, Science fiction
+20395: Rose, Geoffrey , The Story of the 2/4, World War, 1914-1918 -- R
+25508: Besant, Walter,, The Strand DistrictT, Strand, The (London, Engl
+27089: Westlake, Donal, The Risk Profession, Science fiction
+27467: (no data found), Stories to Read or T, Fairy tales
+27794: Souvestre, Pier, Fant+¦mas, Detective and mystery sto
+30115: Sedgwick, Anne , Tante, Fiction
+29949: Washington, Geo, Washington's Masonic, Washington, George, 1732-
+5463: Ebers, Georg, 1, The Sisters GÇö Volu, Egypt -- History -- 332-3
+24771: Lewis, W. S. (W, Tutors' Lane, Love stories
+29087: Various, Harper's Young Peopl, Children's periodicals, A
+
+Test Failures:
+Book Not Found.
+Book Not Found.
+Book Not Found.
+Press any key to continue . . .
+
+---Test 6---
+//test table size
+
+catalog-short4.txt
+4863
+
+Table Size: 4863
+
+Random Ebooks:
+28347: Various, Harper's Young Peopl, Children's periodicals, A
+6632: McGee, Thomas D, A Popular History of, Ireland -- History
+29135: Kipling, Rudyar, With The Night MailA, Science fiction
+15561: Mann, Arthur M., The Boer in Peace an, (no data found)
+15188: Allen, Quincy, The Outdoor Chums Af, (no data found)
+6346: Burney, Fanny, , Cecilia; Or, Memoirs, (no data found)
+27442: Cammaerts, Emil, BelgiumFrom the Roma, Belgium -- History
+157: Webster, Jean, , Daddy-Long-Legs, Orphans -- Fiction
+29087: Various, Harper's Young Peopl, Children's periodicals, A
+29500: Cannan, Gilbert, MummeryA Tale of Thr, PR
+25909: Various, The ArenaVolume 4, N, AP
+3096: Haggard, Henry , Beatrice, English fiction
+30336: Stephen, Leslie, Hours in a LibraryNe, English literature -- His
+28347: Various, Harper's Young Peopl, Children's periodicals, A
+28448: Penrose, Margar, The Campfire Girls o, Detective and mystery sto
+7310: Milne, A. A. (A, Mr. Pim Passes By, (no data found)
+606: Linderman, Fran, Indian Why StoriesSp, Tales -- North America
+29715: Williamson, A. , The Princess Virgini, Fiction
+29880: Chambers, Rober, The Crimson TideA No, Fiction
+25962: (no data found), World's War Events, , World War, 1914-1918
+26361: (no data found), The New Testament of, Bible. N.T.
+24991: Wise, Daniel, 1, Aunt Amyor, How Minn, Children -- Conduct of li
+29020: Hutton, Laurenc, A Boy I Knew and Fou, Hutton, Laurence, 1843-19
+29432: Long, Frank Bel, The Man the Martians, Science fiction
+3956: Hal+¬vy, Ludovi, L'Abbe Constantin GÇ, Love stories
+
+The same random books from the hash table
+28347: Various, Harper's Young Peopl, Children's periodicals, A
+6632: McGee, Thomas D, A Popular History of, Ireland -- History
+29135: Kipling, Rudyar, With The Night MailA, Science fiction
+15561: Mann, Arthur M., The Boer in Peace an, (no data found)
+15188: Allen, Quincy, The Outdoor Chums Af, (no data found)
+6346: Burney, Fanny, , Cecilia; Or, Memoirs, (no data found)
+27442: Cammaerts, Emil, BelgiumFrom the Roma, Belgium -- History
+157: Webster, Jean, , Daddy-Long-Legs, Orphans -- Fiction
+29087: Various, Harper's Young Peopl, Children's periodicals, A
+29500: Cannan, Gilbert, MummeryA Tale of Thr, PR
+25909: Various, The ArenaVolume 4, N, AP
+3096: Haggard, Henry , Beatrice, English fiction
+30336: Stephen, Leslie, Hours in a LibraryNe, English literature -- His
+28347: Various, Harper's Young Peopl, Children's periodicals, A
+28448: Penrose, Margar, The Campfire Girls o, Detective and mystery sto
+7310: Milne, A. A. (A, Mr. Pim Passes By, (no data found)
+606: Linderman, Fran, Indian Why StoriesSp, Tales -- North America
+29715: Williamson, A. , The Princess Virgini, Fiction
+29880: Chambers, Rober, The Crimson TideA No, Fiction
+25962: (no data found), World's War Events, , World War, 1914-1918
+26361: (no data found), The New Testament of, Bible. N.T.
+24991: Wise, Daniel, 1, Aunt Amyor, How Minn, Children -- Conduct of li
+29020: Hutton, Laurenc, A Boy I Knew and Fou, Hutton, Laurence, 1843-19
+29432: Long, Frank Bel, The Man the Martians, Science fiction
+3956: Hal+¬vy, Ludovi, L'Abbe Constantin GÇ, Love stories
+
+Test Failures:
+Book Not Found.
+Book Not Found.
+Book Not Found.
+Press any key to continue . . .
